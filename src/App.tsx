@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import siderCollapsedSvg from './assets/sider_collapsed.svg'
 import addChatSvg from './assets/add_chat.svg'
 import historySvg from './assets/history.svg'
