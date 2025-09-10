@@ -1,0 +1,9 @@
+@reference  "tailwindcss";
+
+.layout-transition {
+     @apply transition-all duration-300;
+}
+
+.overflow-ellipsis{
+    @apply overflow-hidden text-ellipsis whitespace-nowrap
+}
