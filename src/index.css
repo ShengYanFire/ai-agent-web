@@ -1,12 +1,12 @@
 @import "tailwindcss";
-@reference  "tailwindcss";
+@reference "tailwindcss";
 
 /* 元素收缩、hover等各种样式状态改变过渡动画  */
 .layout-transition {
-     @apply transition-all duration-300;
+  @apply transition-all duration-300;
 }
 
 /* 文本超出省略号 */
-.overflow-ellipsis{
-    @apply overflow-hidden text-ellipsis whitespace-nowrap;
+.overflow-ellipsis {
+  @apply overflow-hidden text-ellipsis whitespace-nowrap;
 }
