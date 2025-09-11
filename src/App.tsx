@@ -10,18 +10,10 @@ function App() {
   const [isCollapsed, setIsCollapsed] = useState(false)
   const { status, error, data, historyList, post, abort, initHistory, selectHistoryItem } = usePostStreamJSON<any, any>()
 
-  useEffect(() => {
-    post('/api/generate', {
-      "model": "deepseek-coder",
-      "prompt": "请做一个自我介绍",
-      "stream": true
-    })
-  }, [])
-
   return <>
     <div className='w-screen h-screen flex  bg-gray-50'>
       <div className={`layout-transition ${!isCollapsed ? 'w-70' : 'w-0'}`}>
-        <div className='overflow-ellipsis m-3 pt-3 mr-0'>
+        <div className='truncate m-3 pt-3 mr-0'>
           <div className='flex justify-between items-center'>
             <img src='/ai-agent.svg' className='w-8' />
             <img
@@ -47,7 +39,7 @@ function App() {
         </div>
       </div>
 
-      <div className='layout-transition flex flex-col justify-center relative w-full m-3 p-3 flex-1 rounded-lg bg-gradient-to-tr form-white to-blue-100'>
+      <div className='layout-transition flex-1 flex flex-col m-3 p-3 rounded-lg bg-gradient-to-tr form-white to-blue-100'>
         <div className='flex items-center gap-2 h-8'>
           {isCollapsed && <>
             <img
@@ -61,14 +53,22 @@ function App() {
               onClick={() => { }}
             />
           </>}
-          <div className='overflow-ellipsis max-w-100'>主要题目主要题目主要题目主要题主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目目主要题目主要题目</div>
+          <div className='w-100 truncate'>
+            主要题目主要题目主要题目主要题主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要
+            题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目目主要
+            题目主要题目
+          </div>
         </div>
 
-        <div className='flex-1 mt-6 mb-6 overflow-auto'>
-          {data.map((item, index) => item.response)}
+        <div className='flex-1 mt-3 mb-3 overflow-auto scrollbar-hide'>
+
+          {historyList.map((item, index) => <>
+            <div>{item.req.prompt}</div>
+            <div>{item.res.map((res, index) => res.response)}</div>
+          </>)}
         </div>
 
-        <ChatInput />
+        <ChatInput post={post} status={status} abort={abort} />
       </div>
     </div>
   </>

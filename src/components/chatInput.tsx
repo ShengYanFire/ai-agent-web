@@ -1,34 +1,41 @@
-import { Input, Select } from "antd"
+import { Input, message, Select } from "antd"
 import { useState } from "react"
-import { SendOutlined } from "@ant-design/icons"
+import { LoadingOutlined, SendOutlined } from "@ant-design/icons"
+import type { Status } from "@/hooks/usePostStreamJSON"
+import stopSvg from '@/assets/stop.svg'
 
 const { TextArea } = Input
 
-export default () => {
+export default ({ post, status, abort }: {
+    post: (url: string, body: any) => void,
+    status: Status,
+    abort: () => void
+}) => {
     const [model, setModel] = useState('qwen3:8b')
     const [inputValue, setInputValue] = useState('')
-    
+
     const handleSendMessage = () => {
-        if (inputValue.trim()) {
-            console.log('发送消息:', inputValue, '使用模型:', model)
-            // 实际项目中这里会调用API发送消息
-            setInputValue('') // 发送后清空输入框
+        if (status === 'idle' || status === 'done') {
+            if (inputValue.trim()) {
+                post('/api/generate', { model, "prompt": inputValue, "stream": true })
+                setInputValue('')
+            }
+        } else {
+            message.warning('请稍等，正在处理中...')
         }
     }
-    
+
     const handleKeyDown = (e: React.KeyboardEvent) => {
         if (e.key === 'Enter') {
             if (e.shiftKey) {
-                // Shift+Enter 换行，由浏览器默认处理
                 return
             } else {
-                // Enter 发送消息
-                e.preventDefault() // 阻止默认行为（换行）
+                e.preventDefault()
                 handleSendMessage()
             }
         }
     }
-    
+
     return <>
         <div className="border-1 border-gray-300 rounded-2xl p-2 ">
             <TextArea
@@ -50,10 +57,16 @@ export default () => {
                         options={[{ value: 'qwen3:8b' }, { value: 'deepseek-coder' }]}
                         className="hover:bg-blue-50 rounded-full  "
                     />
-                    <SendOutlined
+                    {(status === 'idle' || status === 'done') && <SendOutlined
                         className="cursor-pointer p-2 rounded-md hover:bg-blue-50"
                         onClick={handleSendMessage}
-                    />
+                    />}
+
+                    {status === 'loading' && <img
+                        src={stopSvg}
+                        className="w-9 p-2 cursor-pointer rounded-md hover:bg-blue-50"
+                        onClick={abort}
+                    />}
                 </div>
             </div>
         </div>
