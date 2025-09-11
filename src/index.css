@@ -10,3 +10,8 @@
 .overflow-ellipsis {
   @apply overflow-hidden text-ellipsis whitespace-nowrap;
 }
+
+/* 隐藏滚动条 */
+.scrollbar-hide::-webkit-scrollbar {
+  @apply hidden;
+}

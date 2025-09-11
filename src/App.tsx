@@ -47,7 +47,7 @@ function App() {
         </div>
       </div>
 
-      <div className='layout-transition m-3 p-3 flex-1 rounded-lg  bg-gradient-to-tr form-white to-blue-100'>
+      <div className='layout-transition flex flex-col justify-center relative w-full m-3 p-3 flex-1 rounded-lg bg-gradient-to-tr form-white to-blue-100'>
         <div className='flex items-center gap-2 h-8'>
           {isCollapsed && <>
             <img
@@ -64,9 +64,9 @@ function App() {
           <div className='overflow-ellipsis max-w-100'>主要题目主要题目主要题目主要题主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目目主要题目主要题目</div>
         </div>
 
-        {/* <pre>
+        <div className='flex-1 mt-6 mb-6 overflow-auto'>
           {data.map((item, index) => item.response)}
-        </pre> */}
+        </div>
 
         <ChatInput />
       </div>

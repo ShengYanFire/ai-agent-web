@@ -10,9 +10,9 @@ export default () => {
                 autoSize={{ minRows: 2, maxRows: 4 }}
                 placeholder="请输入内容"
                 variant="borderless"
-                className="bg-white-100 overflow-hidden focus:outline-none"
+                className="bg-white-100 scrollbar-hide focus:outline-none"
             />
-            
+
             <div className="flex justify-end mt-1">
                 <div className="flex justify-end gap-2 items-center">
                     <Select
@@ -23,7 +23,7 @@ export default () => {
                         className="hover:bg-blue-50 rounded-full  "
                     />
                     <SendOutlined
-                        className="cursor-pointer p-1 hover:text-blue-500"
+                        className="cursor-pointer p-2 rounded-md hover:bg-blue-50"
                     />
                 </div>
             </div>
