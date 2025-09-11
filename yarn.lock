@@ -2,7 +2,70 @@
 # yarn lockfile v1
 
 
-"@babel/code-frame@^7.27.1":
+"@ant-design/colors@^7.0.0", "@ant-design/colors@^7.2.1":
+  version "7.2.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@ant-design/colors&pkgVersion=7.2.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BhbnQtZGVzaWduL2NvbG9ycy8tL2NvbG9ycy03LjIuMS50Z3o=#3bbc1c6c18550020d1622a0067ff03492318df98"
+  integrity sha512-lCHDcEzieu4GA3n8ELeZ5VQ8pKQAWcGGLRTQ50aQM2iqPpq2evTxER84jfdPvsPAtEcZ7m44NI45edFMo8oOYQ==
+  dependencies:
+    "@ant-design/fast-color" "^2.0.6"
+
+"@ant-design/cssinjs-utils@^1.1.3":
+  version "1.1.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@ant-design/cssinjs-utils&pkgVersion=1.1.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BhbnQtZGVzaWduL2Nzc2luanMtdXRpbHMvLS9jc3NpbmpzLXV0aWxzLTEuMS4zLnRneg==#5dd79126057920a6992d57b38dd84e2c0b707977"
+  integrity sha512-nOoQMLW1l+xR1Co8NFVYiP8pZp3VjIIzqV6D6ShYF2ljtdwWJn5WSsH+7kvCktXL/yhEtWURKOfH5Xz/gzlwsg==
+  dependencies:
+    "@ant-design/cssinjs" "^1.21.0"
+    "@babel/runtime" "^7.23.2"
+    rc-util "^5.38.0"
+
+"@ant-design/cssinjs@^1.21.0", "@ant-design/cssinjs@^1.23.0":
+  version "1.24.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@ant-design/cssinjs&pkgVersion=1.24.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BhbnQtZGVzaWduL2Nzc2luanMvLS9jc3NpbmpzLTEuMjQuMC50Z3o=#7db091f03f189abc77a13cbd27a2293802cd7285"
+  integrity sha512-K4cYrJBsgvL+IoozUXYjbT6LHHNt+19a9zkvpBPxLjFHas1UpPM2A5MlhROb0BT8N8WoavM5VsP9MeSeNK/3mg==
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    "@emotion/hash" "^0.8.0"
+    "@emotion/unitless" "^0.7.5"
+    classnames "^2.3.1"
+    csstype "^3.1.3"
+    rc-util "^5.35.0"
+    stylis "^4.3.4"
+
+"@ant-design/fast-color@^2.0.6":
+  version "2.0.6"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@ant-design/fast-color&pkgVersion=2.0.6&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BhbnQtZGVzaWduL2Zhc3QtY29sb3IvLS9mYXN0LWNvbG9yLTIuMC42LnRneg==#ab4d4455c1542c9017d367c2fa8ca3e4215d0ba2"
+  integrity sha512-y2217gk4NqL35giHl72o6Zzqji9O7vHh9YmhUVkPtAOpoTCH4uWxo/pr4VE8t0+ChEPs0qo4eJRC5Q1eXWo3vA==
+  dependencies:
+    "@babel/runtime" "^7.24.7"
+
+"@ant-design/icons-svg@^4.4.0":
+  version "4.4.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@ant-design/icons-svg&pkgVersion=4.4.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BhbnQtZGVzaWduL2ljb25zLXN2Zy8tL2ljb25zLXN2Zy00LjQuMi50Z3o=#ed2be7fb4d82ac7e1d45a54a5b06d6cecf8be6f6"
+  integrity sha512-vHbT+zJEVzllwP+CM+ul7reTEfBR0vgxFe7+lREAsAA7YGsYpboiq2sQNeQeRvh09GfQgs/GyFEvZpJ9cLXpXA==
+
+"@ant-design/icons@^5.6.1":
+  version "5.6.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@ant-design/icons&pkgVersion=5.6.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BhbnQtZGVzaWduL2ljb25zLy0vaWNvbnMtNS42LjEudGd6#7290fcdc3d96ff3fca793ed399053cd29ad5dbd3"
+  integrity sha512-0/xS39c91WjPAZOWsvi1//zjx6kAp4kxWwctR6kuU6p133w8RU0D2dSCvZC19uQyharg/sAvYxGYWl01BbZZfg==
+  dependencies:
+    "@ant-design/colors" "^7.0.0"
+    "@ant-design/icons-svg" "^4.4.0"
+    "@babel/runtime" "^7.24.8"
+    classnames "^2.2.6"
+    rc-util "^5.31.1"
+
+"@ant-design/react-slick@~1.1.2":
+  version "1.1.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@ant-design/react-slick&pkgVersion=1.1.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BhbnQtZGVzaWduL3JlYWN0LXNsaWNrLy0vcmVhY3Qtc2xpY2stMS4xLjIudGd6#f84ce3e4d0dc941f02b16f1d1d6d7a371ffbb4f1"
+  integrity sha512-EzlvzE6xQUBrZuuhSAFTdsr4P2bBBHGZwKFemEfq8gIGyIQCxalYfZW/T2ORbtQx5rU69o+WycP3exY/7T1hGA==
+  dependencies:
+    "@babel/runtime" "^7.10.4"
+    classnames "^2.2.5"
+    json2mq "^0.2.0"
+    resize-observer-polyfill "^1.5.1"
+    throttle-debounce "^5.0.0"
+
+"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.27.1":
   version "7.27.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@babel/code-frame&pkgVersion=7.27.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BiYWJlbC9jb2RlLWZyYW1lLy0vY29kZS1mcmFtZS03LjI3LjEudGd6#200f715e66d52a23b221a9435534a91cc13ad5be"
   integrity sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==
@@ -16,7 +79,7 @@
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@babel/compat-data&pkgVersion=7.28.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BiYWJlbC9jb21wYXQtZGF0YS8tL2NvbXBhdC1kYXRhLTcuMjguNC50Z3o=#96fdf1af1b8859c8474ab39c295312bfb7c24b04"
   integrity sha512-YsmSKC29MJwf0gF8Rjjrg5LQCmyh+j/nD8/eP7f+BeoQTKYqs9RoWbjGOdy0+1Ekr68RJZMUOPVQaQisnIo4Rw==
 
-"@babel/core@^7.28.3":
+"@babel/core@^7.21.3", "@babel/core@^7.28.3":
   version "7.28.4"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@babel/core&pkgVersion=7.28.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BiYWJlbC9jb3JlLy0vY29yZS03LjI4LjQudGd6#12a550b8794452df4c8b084f95003bce1742d496"
   integrity sha512-2BCOP7TN8M+gVDj7/ht3hsaO/B/n5oDbiAyyvnRlNOs+u1o+JWNYTQrmpuNp1/Wq2gcFrI01JAW+paEKDMx/CA==
@@ -130,6 +193,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.27.1"
 
+"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.5", "@babel/runtime@^7.23.2", "@babel/runtime@^7.23.6", "@babel/runtime@^7.23.9", "@babel/runtime@^7.24.4", "@babel/runtime@^7.24.7", "@babel/runtime@^7.24.8", "@babel/runtime@^7.25.7", "@babel/runtime@^7.26.0":
+  version "7.28.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@babel/runtime&pkgVersion=7.28.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BiYWJlbC9ydW50aW1lLy0vcnVudGltZS03LjI4LjQudGd6#a70226016fabe25c5783b2f22d3e1c9bc5ca3326"
+  integrity sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==
+
 "@babel/template@^7.27.2":
   version "7.27.2"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@babel/template&pkgVersion=7.27.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BiYWJlbC90ZW1wbGF0ZS8tL3RlbXBsYXRlLTcuMjcuMi50Z3o=#fa78ceed3c4e7b63ebf6cb39e5852fca45f6809d"
@@ -152,7 +220,7 @@
     "@babel/types" "^7.28.4"
     debug "^4.3.1"
 
-"@babel/types@^7.0.0", "@babel/types@^7.20.7", "@babel/types@^7.27.1", "@babel/types@^7.28.2", "@babel/types@^7.28.4":
+"@babel/types@^7.0.0", "@babel/types@^7.20.7", "@babel/types@^7.21.3", "@babel/types@^7.27.1", "@babel/types@^7.28.2", "@babel/types@^7.28.4":
   version "7.28.4"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@babel/types&pkgVersion=7.28.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BiYWJlbC90eXBlcy8tL3R5cGVzLTcuMjguNC50Z3o=#0a4e618f4c60a7cd6c11cb2d48060e4dbe38ac3a"
   integrity sha512-bkFqkLhh3pMBUQQkpVgWDWq/lqzc2678eUyDlTBhRqhCHFguYYGM0Efga7tYk4TogG/3x0EEl66/OQ+WGbWB/Q==
@@ -181,6 +249,16 @@
   integrity sha512-WI0DdZ8xFSbgMjR1sFsKABJ/C5OnRrjT06JXbZKexJGrDuPTzZdDYfFlsgcCXCyf+suG5QU2e/y1Wo2V/OapLQ==
   dependencies:
     tslib "^2.4.0"
+
+"@emotion/hash@^0.8.0":
+  version "0.8.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@emotion/hash&pkgVersion=0.8.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BlbW90aW9uL2hhc2gvLS9oYXNoLTAuOC4wLnRneg==#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
+  integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
+
+"@emotion/unitless@^0.7.5":
+  version "0.7.5"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@emotion/unitless&pkgVersion=0.7.5&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BlbW90aW9uL3VuaXRsZXNzLy0vdW5pdGxlc3MtMC43LjUudGd6#77211291c1900a700b8a78cfafda3160d76949ed"
+  integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
 "@esbuild/aix-ppc64@0.25.9":
   version "0.25.9"
@@ -472,10 +550,101 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@rc-component/async-validator@^5.0.3":
+  version "5.0.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rc-component/async-validator&pkgVersion=5.0.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0ByYy1jb21wb25lbnQvYXN5bmMtdmFsaWRhdG9yLy0vYXN5bmMtdmFsaWRhdG9yLTUuMC40LnRneg==#5291ad92f00a14b6766fc81735c234277f83e948"
+  integrity sha512-qgGdcVIF604M9EqjNF0hbUTz42bz/RDtxWdWuU5EQe3hi7M8ob54B6B35rOsvX5eSvIHIzT9iH1R3n+hk3CGfg==
+  dependencies:
+    "@babel/runtime" "^7.24.4"
+
+"@rc-component/color-picker@~2.0.1":
+  version "2.0.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rc-component/color-picker&pkgVersion=2.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0ByYy1jb21wb25lbnQvY29sb3ItcGlja2VyLy0vY29sb3ItcGlja2VyLTIuMC4xLnRneg==#6b9b96152466a9d4475cbe72b40b594bfda164be"
+  integrity sha512-WcZYwAThV/b2GISQ8F+7650r5ZZJ043E57aVBFkQ+kSY4C6wdofXgB0hBx+GPGpIU0Z81eETNoDUJMr7oy/P8Q==
+  dependencies:
+    "@ant-design/fast-color" "^2.0.6"
+    "@babel/runtime" "^7.23.6"
+    classnames "^2.2.6"
+    rc-util "^5.38.1"
+
+"@rc-component/context@^1.4.0":
+  version "1.4.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rc-component/context&pkgVersion=1.4.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0ByYy1jb21wb25lbnQvY29udGV4dC8tL2NvbnRleHQtMS40LjAudGd6#dc6fb021d6773546af8f016ae4ce9aea088395e8"
+  integrity sha512-kFcNxg9oLRMoL3qki0OMxK+7g5mypjgaaJp/pkOis/6rVxma9nJBF/8kCIuTYHUQNr0ii7MxqE33wirPZLJQ2w==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    rc-util "^5.27.0"
+
+"@rc-component/mini-decimal@^1.0.1":
+  version "1.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rc-component/mini-decimal&pkgVersion=1.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0ByYy1jb21wb25lbnQvbWluaS1kZWNpbWFsLy0vbWluaS1kZWNpbWFsLTEuMS4wLnRneg==#7b7a362b14a0a54cb5bc6fd2b82731f29f11d9b0"
+  integrity sha512-jS4E7T9Li2GuYwI6PyiVXmxTiM6b07rlD9Ge8uGZSCz3WlzcG5ZK7g5bbuKNeZ9pgUuPK/5guV781ujdVpm4HQ==
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+
+"@rc-component/mutate-observer@^1.1.0":
+  version "1.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rc-component/mutate-observer&pkgVersion=1.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0ByYy1jb21wb25lbnQvbXV0YXRlLW9ic2VydmVyLy0vbXV0YXRlLW9ic2VydmVyLTEuMS4wLnRneg==#ee53cc88b78aade3cd0653609215a44779386fd8"
+  integrity sha512-QjrOsDXQusNwGZPf4/qRQasg7UFEj06XiCJ8iuiq/Io7CrHrgVi6Uuetw60WAMG1799v+aM8kyc+1L/GBbHSlw==
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.3.2"
+    rc-util "^5.24.4"
+
+"@rc-component/portal@^1.0.0-8", "@rc-component/portal@^1.0.0-9", "@rc-component/portal@^1.0.2", "@rc-component/portal@^1.1.0", "@rc-component/portal@^1.1.1":
+  version "1.1.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rc-component/portal&pkgVersion=1.1.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0ByYy1jb21wb25lbnQvcG9ydGFsLy0vcG9ydGFsLTEuMS4yLnRneg==#55db1e51d784e034442e9700536faaa6ab63fc71"
+  integrity sha512-6f813C0IsasTZms08kfA8kPAGxbbkYToa8ALaiDIGGECU4i9hj8Plgbx0sNJDrey3EtHO30hmdaxtT0138xZcg==
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.3.2"
+    rc-util "^5.24.4"
+
+"@rc-component/qrcode@~1.0.0":
+  version "1.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rc-component/qrcode&pkgVersion=1.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0ByYy1jb21wb25lbnQvcXJjb2RlLy0vcXJjb2RlLTEuMC4wLnRneg==#48a8de5eb11d0e65926f1377c4b1ef4c888997f5"
+  integrity sha512-L+rZ4HXP2sJ1gHMGHjsg9jlYBX/SLN2D6OxP9Zn3qgtpMWtO2vUfxVFwiogHpAIqs54FnALxraUy/BCO1yRIgg==
+  dependencies:
+    "@babel/runtime" "^7.24.7"
+    classnames "^2.3.2"
+    rc-util "^5.38.0"
+
+"@rc-component/tour@~1.15.1":
+  version "1.15.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rc-component/tour&pkgVersion=1.15.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0ByYy1jb21wb25lbnQvdG91ci8tL3RvdXItMS4xNS4xLnRneg==#9b79808254185fc19e964172d99e25e8c6800ded"
+  integrity sha512-Tr2t7J1DKZUpfJuDZWHxyxWpfmj8EZrqSgyMZ+BCdvKZ6r1UDsfU46M/iWAAFBy961Ssfom2kv5f3UcjIL2CmQ==
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@rc-component/portal" "^1.0.0-9"
+    "@rc-component/trigger" "^2.0.0"
+    classnames "^2.3.2"
+    rc-util "^5.24.4"
+
+"@rc-component/trigger@^2.0.0", "@rc-component/trigger@^2.1.1", "@rc-component/trigger@^2.3.0":
+  version "2.3.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rc-component/trigger&pkgVersion=2.3.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0ByYy1jb21wb25lbnQvdHJpZ2dlci8tL3RyaWdnZXItMi4zLjAudGd6#9499ada078daca9dd99d01f0f0743ee1ab9e398b"
+  integrity sha512-iwaxZyzOuK0D7lS+0AQEtW52zUWxoGqTGkke3dRyb8pYiShmRpCjB/8TzPI4R6YySCH7Vm9BZj/31VPiiQTLBg==
+  dependencies:
+    "@babel/runtime" "^7.23.2"
+    "@rc-component/portal" "^1.1.0"
+    classnames "^2.3.2"
+    rc-motion "^2.0.0"
+    rc-resize-observer "^1.3.1"
+    rc-util "^5.44.0"
+
 "@rolldown/pluginutils@1.0.0-beta.34":
   version "1.0.0-beta.34"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rolldown/pluginutils&pkgVersion=1.0.0-beta.34&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Byb2xsZG93bi9wbHVnaW51dGlscy8tL3BsdWdpbnV0aWxzLTEuMC4wLWJldGEuMzQudGd6#4421645c676926faa4574940d72fa7ce0ec7d419"
   integrity sha512-LyAREkZHP5pMom7c24meKmJCdhf2hEyvam2q0unr3or9ydwDL+DJ8chTF6Av/RFPb3rH8UFBdMzO5MxTZW97oA==
+
+"@rollup/pluginutils@^5.2.0":
+  version "5.3.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rollup/pluginutils&pkgVersion=5.3.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Byb2xsdXAvcGx1Z2ludXRpbHMvLS9wbHVnaW51dGlscy01LjMuMC50Z3o=#57ba1b0cbda8e7a3c597a4853c807b156e21a7b4"
+  integrity sha512-5EdhGZtnu3V88ces7s53hhfK5KSASnJZv8Lulpc04cWO3REESroJXg73DFsOmgbU2BhwV0E20bu2IDZb3VKW4Q==
+  dependencies:
+    "@types/estree" "^1.0.0"
+    estree-walker "^2.0.2"
+    picomatch "^4.0.2"
 
 "@rollup/rollup-android-arm-eabi@4.50.1":
   version "4.50.1"
@@ -581,6 +750,89 @@
   version "4.50.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@rollup/rollup-win32-x64-msvc&pkgVersion=4.50.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Byb2xsdXAvcm9sbHVwLXdpbjMyLXg2NC1tc3ZjLy0vcm9sbHVwLXdpbjMyLXg2NC1tc3ZjLTQuNTAuMS50Z3o=#13f758c97b9fbbac56b6928547a3ff384e7cfb3e"
   integrity sha512-StxAO/8ts62KZVRAm4JZYq9+NqNsV7RvimNK+YM7ry//zebEH6meuugqW/P5OFUCjyQgui+9fUxT6d5NShvMvA==
+
+"@svgr/babel-plugin-add-jsx-attribute@8.0.0":
+  version "8.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/babel-plugin-add-jsx-attribute&pkgVersion=8.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2JhYmVsLXBsdWdpbi1hZGQtanN4LWF0dHJpYnV0ZS8tL2JhYmVsLXBsdWdpbi1hZGQtanN4LWF0dHJpYnV0ZS04LjAuMC50Z3o=#4001f5d5dd87fa13303e36ee106e3ff3a7eb8b22"
+  integrity sha512-b9MIk7yhdS1pMCZM8VeNfUlSKVRhsHZNMl5O9SfaX0l0t5wjdgu4IDzGB8bpnGBBOjGST3rRFVsaaEtI4W6f7g==
+
+"@svgr/babel-plugin-remove-jsx-attribute@8.0.0":
+  version "8.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/babel-plugin-remove-jsx-attribute&pkgVersion=8.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2JhYmVsLXBsdWdpbi1yZW1vdmUtanN4LWF0dHJpYnV0ZS8tL2JhYmVsLXBsdWdpbi1yZW1vdmUtanN4LWF0dHJpYnV0ZS04LjAuMC50Z3o=#69177f7937233caca3a1afb051906698f2f59186"
+  integrity sha512-BcCkm/STipKvbCl6b7QFrMh/vx00vIP63k2eM66MfHJzPr6O2U0jYEViXkHJWqXqQYjdeA9cuCl5KWmlwjDvbA==
+
+"@svgr/babel-plugin-remove-jsx-empty-expression@8.0.0":
+  version "8.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/babel-plugin-remove-jsx-empty-expression&pkgVersion=8.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2JhYmVsLXBsdWdpbi1yZW1vdmUtanN4LWVtcHR5LWV4cHJlc3Npb24vLS9iYWJlbC1wbHVnaW4tcmVtb3ZlLWpzeC1lbXB0eS1leHByZXNzaW9uLTguMC4wLnRneg==#c2c48104cfd7dcd557f373b70a56e9e3bdae1d44"
+  integrity sha512-5BcGCBfBxB5+XSDSWnhTThfI9jcO5f0Ai2V24gZpG+wXF14BzwxxdDb4g6trdOux0rhibGs385BeFMSmxtS3uA==
+
+"@svgr/babel-plugin-replace-jsx-attribute-value@8.0.0":
+  version "8.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/babel-plugin-replace-jsx-attribute-value&pkgVersion=8.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2JhYmVsLXBsdWdpbi1yZXBsYWNlLWpzeC1hdHRyaWJ1dGUtdmFsdWUvLS9iYWJlbC1wbHVnaW4tcmVwbGFjZS1qc3gtYXR0cmlidXRlLXZhbHVlLTguMC4wLnRneg==#8fbb6b2e91fa26ac5d4aa25c6b6e4f20f9c0ae27"
+  integrity sha512-KVQ+PtIjb1BuYT3ht8M5KbzWBhdAjjUPdlMtpuw/VjT8coTrItWX6Qafl9+ji831JaJcu6PJNKCV0bp01lBNzQ==
+
+"@svgr/babel-plugin-svg-dynamic-title@8.0.0":
+  version "8.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/babel-plugin-svg-dynamic-title&pkgVersion=8.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2JhYmVsLXBsdWdpbi1zdmctZHluYW1pYy10aXRsZS8tL2JhYmVsLXBsdWdpbi1zdmctZHluYW1pYy10aXRsZS04LjAuMC50Z3o=#1d5ba1d281363fc0f2f29a60d6d936f9bbc657b0"
+  integrity sha512-omNiKqwjNmOQJ2v6ge4SErBbkooV2aAWwaPFs2vUY7p7GhVkzRkJ00kILXQvRhA6miHnNpXv7MRnnSjdRjK8og==
+
+"@svgr/babel-plugin-svg-em-dimensions@8.0.0":
+  version "8.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/babel-plugin-svg-em-dimensions&pkgVersion=8.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2JhYmVsLXBsdWdpbi1zdmctZW0tZGltZW5zaW9ucy8tL2JhYmVsLXBsdWdpbi1zdmctZW0tZGltZW5zaW9ucy04LjAuMC50Z3o=#35e08df300ea8b1d41cb8f62309c241b0369e501"
+  integrity sha512-mURHYnu6Iw3UBTbhGwE/vsngtCIbHE43xCRK7kCw4t01xyGqb2Pd+WXekRRoFOBIY29ZoOhUCTEweDMdrjfi9g==
+
+"@svgr/babel-plugin-transform-react-native-svg@8.1.0":
+  version "8.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/babel-plugin-transform-react-native-svg&pkgVersion=8.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2JhYmVsLXBsdWdpbi10cmFuc2Zvcm0tcmVhY3QtbmF0aXZlLXN2Zy8tL2JhYmVsLXBsdWdpbi10cmFuc2Zvcm0tcmVhY3QtbmF0aXZlLXN2Zy04LjEuMC50Z3o=#90a8b63998b688b284f255c6a5248abd5b28d754"
+  integrity sha512-Tx8T58CHo+7nwJ+EhUwx3LfdNSG9R2OKfaIXXs5soiy5HtgoAEkDay9LIimLOcG8dJQH1wPZp/cnAv6S9CrR1Q==
+
+"@svgr/babel-plugin-transform-svg-component@8.0.0":
+  version "8.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/babel-plugin-transform-svg-component&pkgVersion=8.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2JhYmVsLXBsdWdpbi10cmFuc2Zvcm0tc3ZnLWNvbXBvbmVudC8tL2JhYmVsLXBsdWdpbi10cmFuc2Zvcm0tc3ZnLWNvbXBvbmVudC04LjAuMC50Z3o=#013b4bfca88779711f0ed2739f3f7efcefcf4f7e"
+  integrity sha512-DFx8xa3cZXTdb/k3kfPeaixecQLgKh5NVBMwD0AQxOzcZawK4oo1Jh9LbrcACUivsCA7TLG8eeWgrDXjTMhRmw==
+
+"@svgr/babel-preset@8.1.0":
+  version "8.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/babel-preset&pkgVersion=8.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2JhYmVsLXByZXNldC8tL2JhYmVsLXByZXNldC04LjEuMC50Z3o=#0e87119aecdf1c424840b9d4565b7137cabf9ece"
+  integrity sha512-7EYDbHE7MxHpv4sxvnVPngw5fuR6pw79SkcrILHJ/iMpuKySNCl5W1qcwPEpU+LgyRXOaAFgH0KhwD18wwg6ug==
+  dependencies:
+    "@svgr/babel-plugin-add-jsx-attribute" "8.0.0"
+    "@svgr/babel-plugin-remove-jsx-attribute" "8.0.0"
+    "@svgr/babel-plugin-remove-jsx-empty-expression" "8.0.0"
+    "@svgr/babel-plugin-replace-jsx-attribute-value" "8.0.0"
+    "@svgr/babel-plugin-svg-dynamic-title" "8.0.0"
+    "@svgr/babel-plugin-svg-em-dimensions" "8.0.0"
+    "@svgr/babel-plugin-transform-react-native-svg" "8.1.0"
+    "@svgr/babel-plugin-transform-svg-component" "8.0.0"
+
+"@svgr/core@^8.1.0":
+  version "8.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/core&pkgVersion=8.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2NvcmUvLS9jb3JlLTguMS4wLnRneg==#41146f9b40b1a10beaf5cc4f361a16a3c1885e88"
+  integrity sha512-8QqtOQT5ACVlmsvKOJNEaWmRPmcojMOzCz4Hs2BGG/toAp/K38LcsMRyLp349glq5AzJbCEeimEoxaX6v/fLrA==
+  dependencies:
+    "@babel/core" "^7.21.3"
+    "@svgr/babel-preset" "8.1.0"
+    camelcase "^6.2.0"
+    cosmiconfig "^8.1.3"
+    snake-case "^3.0.4"
+
+"@svgr/hast-util-to-babel-ast@8.0.0":
+  version "8.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/hast-util-to-babel-ast&pkgVersion=8.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL2hhc3QtdXRpbC10by1iYWJlbC1hc3QvLS9oYXN0LXV0aWwtdG8tYmFiZWwtYXN0LTguMC4wLnRneg==#6952fd9ce0f470e1aded293b792a2705faf4ffd4"
+  integrity sha512-EbDKwO9GpfWP4jN9sGdYwPBU0kdomaPIL2Eu4YwmgP+sJeXT+L7bMwJUBnhzfH8Q2qMBqZ4fJwpCyYsAN3mt2Q==
+  dependencies:
+    "@babel/types" "^7.21.3"
+    entities "^4.4.0"
+
+"@svgr/plugin-jsx@^8.1.0":
+  version "8.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@svgr/plugin-jsx&pkgVersion=8.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BzdmdyL3BsdWdpbi1qc3gvLS9wbHVnaW4tanN4LTguMS4wLnRneg==#96969f04a24b58b174ee4cd974c60475acbd6928"
+  integrity sha512-0xiIyBsLlr8quN+WyuxooNW9RJ0Dpr8uOnH/xrCVO8GLUcwHISwj1AG0k+LFzteTkAA0GbX0kj9q6Dk70PTiPA==
+  dependencies:
+    "@babel/core" "^7.21.3"
+    "@svgr/babel-preset" "8.1.0"
+    "@svgr/hast-util-to-babel-ast" "8.0.0"
+    svg-parser "^2.0.4"
 
 "@tailwindcss/node@4.1.13":
   version "4.1.13"
@@ -732,7 +984,7 @@
   dependencies:
     "@babel/types" "^7.28.2"
 
-"@types/estree@1.0.8", "@types/estree@^1.0.6":
+"@types/estree@1.0.8", "@types/estree@^1.0.0", "@types/estree@^1.0.6":
   version "1.0.8"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/estree&pkgVersion=1.0.8&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy9lc3RyZWUvLS9lc3RyZWUtMS4wLjgudGd6#958b91c991b1867ced318bedea0e215ee050726e"
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
@@ -741,6 +993,13 @@
   version "7.0.15"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/json-schema&pkgVersion=7.0.15&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy9qc29uLXNjaGVtYS8tL2pzb24tc2NoZW1hLTcuMC4xNS50Z3o=#596a1747233694d50f6ad8a7869fcb6f56cf5841"
   integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
+
+"@types/node@^24.3.1":
+  version "24.3.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/node&pkgVersion=24.3.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy9ub2RlLy0vbm9kZS0yNC4zLjEudGd6#b0a3fb2afed0ef98e8d7f06d46ef6349047709f3"
+  integrity sha512-3vXmQDXy+woz+gnrTvuvNrPzekOi+Ds0ReMxw0LzBiK3a+1k0kQn9f2NWk+lgD4rJehFUmYy2gMhJ2ZI+7YP9g==
+  dependencies:
+    undici-types "~7.10.0"
 
 "@types/react-dom@^19.1.7":
   version "19.1.9"
@@ -891,6 +1150,61 @@ ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
+antd@^5.27.3:
+  version "5.27.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=antd&pkgVersion=5.27.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2FudGQvLS9hbnRkLTUuMjcuMy50Z3o=#6c7cf0baf1907e0766f6f44fe729aaaf108ac440"
+  integrity sha512-Jewp1ek1iyqoAyjWyPgzc2kioZ+7S3jh39a+tld/j4ucnuf/cBk4omfyIdhLz49pVNsaEcRp5LtJOSQPFwPgpA==
+  dependencies:
+    "@ant-design/colors" "^7.2.1"
+    "@ant-design/cssinjs" "^1.23.0"
+    "@ant-design/cssinjs-utils" "^1.1.3"
+    "@ant-design/fast-color" "^2.0.6"
+    "@ant-design/icons" "^5.6.1"
+    "@ant-design/react-slick" "~1.1.2"
+    "@babel/runtime" "^7.26.0"
+    "@rc-component/color-picker" "~2.0.1"
+    "@rc-component/mutate-observer" "^1.1.0"
+    "@rc-component/qrcode" "~1.0.0"
+    "@rc-component/tour" "~1.15.1"
+    "@rc-component/trigger" "^2.3.0"
+    classnames "^2.5.1"
+    copy-to-clipboard "^3.3.3"
+    dayjs "^1.11.11"
+    rc-cascader "~3.34.0"
+    rc-checkbox "~3.5.0"
+    rc-collapse "~3.9.0"
+    rc-dialog "~9.6.0"
+    rc-drawer "~7.3.0"
+    rc-dropdown "~4.2.1"
+    rc-field-form "~2.7.0"
+    rc-image "~7.12.0"
+    rc-input "~1.8.0"
+    rc-input-number "~9.5.0"
+    rc-mentions "~2.20.0"
+    rc-menu "~9.16.1"
+    rc-motion "^2.9.5"
+    rc-notification "~5.6.4"
+    rc-pagination "~5.1.0"
+    rc-picker "~4.11.3"
+    rc-progress "~4.0.0"
+    rc-rate "~2.13.1"
+    rc-resize-observer "^1.4.3"
+    rc-segmented "~2.7.0"
+    rc-select "~14.16.8"
+    rc-slider "~11.1.8"
+    rc-steps "~6.0.1"
+    rc-switch "~4.1.0"
+    rc-table "~7.52.6"
+    rc-tabs "~15.7.0"
+    rc-textarea "~1.10.2"
+    rc-tooltip "~6.4.0"
+    rc-tree "~5.13.1"
+    rc-tree-select "~5.27.0"
+    rc-upload "~4.9.2"
+    rc-util "^5.44.4"
+    scroll-into-view-if-needed "^3.1.0"
+    throttle-debounce "^5.0.2"
+
 argparse@^2.0.1:
   version "2.0.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=argparse&pkgVersion=2.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2FyZ3BhcnNlLy0vYXJncGFyc2UtMi4wLjEudGd6#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
@@ -938,6 +1252,11 @@ callsites@^3.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=callsites&pkgVersion=3.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NhbGxzaXRlcy8tL2NhbGxzaXRlcy0zLjEuMC50Z3o=#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
+camelcase@^6.2.0:
+  version "6.3.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=camelcase&pkgVersion=6.3.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NhbWVsY2FzZS8tL2NhbWVsY2FzZS02LjMuMC50Z3o=#5685b95eb209ac9c0c177467778c9c84df58ba9a"
+  integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
+
 caniuse-lite@^1.0.30001737:
   version "1.0.30001741"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=caniuse-lite&pkgVersion=1.0.30001741&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Nhbml1c2UtbGl0ZS8tL2Nhbml1c2UtbGl0ZS0xLjAuMzAwMDE3NDEudGd6#67fb92953edc536442f3c9da74320774aa523143"
@@ -956,6 +1275,11 @@ chownr@^3.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=chownr&pkgVersion=3.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Nob3duci8tL2Nob3duci0zLjAuMC50Z3o=#9855e64ecd240a9cc4267ce8a4aa5d24a1da15e4"
   integrity sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==
 
+classnames@2.x, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1, classnames@^2.3.2, classnames@^2.5.1:
+  version "2.5.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=classnames&pkgVersion=2.5.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NsYXNzbmFtZXMvLS9jbGFzc25hbWVzLTIuNS4xLnRneg==#ba774c614be0f016da105c858e7159eae8e7687b"
+  integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
+
 color-convert@^2.0.1:
   version "2.0.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=color-convert&pkgVersion=2.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NvbG9yLWNvbnZlcnQvLS9jb2xvci1jb252ZXJ0LTIuMC4xLnRneg==#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
@@ -968,6 +1292,11 @@ color-name@~1.1.4:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=color-name&pkgVersion=1.1.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NvbG9yLW5hbWUvLS9jb2xvci1uYW1lLTEuMS40LnRneg==#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
+compute-scroll-into-view@^3.0.2:
+  version "3.1.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=compute-scroll-into-view&pkgVersion=3.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NvbXB1dGUtc2Nyb2xsLWludG8tdmlldy8tL2NvbXB1dGUtc2Nyb2xsLWludG8tdmlldy0zLjEuMS50Z3o=#02c3386ec531fb6a9881967388e53e8564f3e9aa"
+  integrity sha512-VRhuHOLoKYOy4UbilLbUzbYg93XLjv2PncJC50EuTWPA3gaja1UjBsUP/D/9/juV3vQFr6XBEzn9KCAHdUvOHw==
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=concat-map&pkgVersion=0.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NvbmNhdC1tYXAvLS9jb25jYXQtbWFwLTAuMC4xLnRneg==#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -978,6 +1307,23 @@ convert-source-map@^2.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=convert-source-map&pkgVersion=2.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NvbnZlcnQtc291cmNlLW1hcC8tL2NvbnZlcnQtc291cmNlLW1hcC0yLjAuMC50Z3o=#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
   integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
 
+copy-to-clipboard@^3.3.3:
+  version "3.3.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=copy-to-clipboard&pkgVersion=3.3.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NvcHktdG8tY2xpcGJvYXJkLy0vY29weS10by1jbGlwYm9hcmQtMy4zLjMudGd6#55ac43a1db8ae639a4bd99511c148cdd1b83a1b0"
+  integrity sha512-2KV8NhB5JqC3ky0r9PMCAZKbUHSwtEo4CwCs0KXgruG43gX5PMqDEBbVU4OUzw2MuAWUfsuFmWvEKG5QRfSnJA==
+  dependencies:
+    toggle-selection "^1.0.6"
+
+cosmiconfig@^8.1.3:
+  version "8.3.6"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=cosmiconfig&pkgVersion=8.3.6&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Nvc21pY29uZmlnLy0vY29zbWljb25maWctOC4zLjYudGd6#060a2b871d66dba6c8538ea1118ba1ac16f5fae3"
+  integrity sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==
+  dependencies:
+    import-fresh "^3.3.0"
+    js-yaml "^4.1.0"
+    parse-json "^5.2.0"
+    path-type "^4.0.0"
+
 cross-spawn@^7.0.6:
   version "7.0.6"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=cross-spawn&pkgVersion=7.0.6&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Nyb3NzLXNwYXduLy0vY3Jvc3Mtc3Bhd24tNy4wLjYudGd6#8a58fe78f00dcd70c370451759dfbfaf03e8ee9f"
@@ -987,10 +1333,15 @@ cross-spawn@^7.0.6:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-csstype@^3.0.2:
+csstype@^3.0.2, csstype@^3.1.3:
   version "3.1.3"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=csstype&pkgVersion=3.1.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Nzc3R5cGUvLS9jc3N0eXBlLTMuMS4zLnRneg==#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
+
+dayjs@^1.11.11:
+  version "1.11.18"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=dayjs&pkgVersion=1.11.18&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2RheWpzLy0vZGF5anMtMS4xMS4xOC50Z3o=#835fa712aac52ab9dec8b1494098774ed7070a11"
+  integrity sha512-zFBQ7WFRvVRhKcWoUh+ZA1g2HVgUbsZm9sbddh8EC5iv93sui8DVVz1Npvz+r6meo9VKfa8NyLWBsQK1VvIKPA==
 
 debug@^4.1.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   version "4.4.1"
@@ -1009,6 +1360,14 @@ detect-libc@^2.0.3, detect-libc@^2.0.4:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=detect-libc&pkgVersion=2.0.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2RldGVjdC1saWJjLy0vZGV0ZWN0LWxpYmMtMi4wLjQudGd6#f04715b8ba815e53b4d8109655b6508a6865a7e8"
   integrity sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==
 
+dot-case@^3.0.4:
+  version "3.0.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=dot-case&pkgVersion=3.0.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2RvdC1jYXNlLy0vZG90LWNhc2UtMy4wLjQudGd6#9b2b670d00a431667a8a75ba29cd1b98809ce751"
+  integrity sha512-Kv5nKlh6yRrdrGvxeJ2e5y2eRUpkUosIW4A2AS38zwSz27zu7ufDwQPi5Jhs3XAlGNetl3bmnGhQsMtkKJnj3w==
+  dependencies:
+    no-case "^3.0.4"
+    tslib "^2.0.3"
+
 electron-to-chromium@^1.5.211:
   version "1.5.215"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=electron-to-chromium&pkgVersion=1.5.215&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2VsZWN0cm9uLXRvLWNocm9taXVtLy0vZWxlY3Ryb24tdG8tY2hyb21pdW0tMS41LjIxNS50Z3o=#200c8d69b1270af6126837b6b1f95077c3a347b1"
@@ -1021,6 +1380,18 @@ enhanced-resolve@^5.18.3:
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
+
+entities@^4.4.0:
+  version "4.5.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=entities&pkgVersion=4.5.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2VudGl0aWVzLy0vZW50aXRpZXMtNC41LjAudGd6#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
+  integrity sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==
+
+error-ex@^1.3.1:
+  version "1.3.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=error-ex&pkgVersion=1.3.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Vycm9yLWV4Ly0vZXJyb3ItZXgtMS4zLjIudGd6#b4ac40648107fdcdcfae242f428bea8a14d4f1bf"
+  integrity sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==
+  dependencies:
+    is-arrayish "^0.2.1"
 
 esbuild@^0.25.0:
   version "0.25.9"
@@ -1161,6 +1532,11 @@ estraverse@^5.1.0, estraverse@^5.2.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=estraverse&pkgVersion=5.3.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2VzdHJhdmVyc2UvLS9lc3RyYXZlcnNlLTUuMy4wLnRneg==#2eea5290702f26ab8fe5370370ff86c965d21123"
   integrity sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==
 
+estree-walker@^2.0.2:
+  version "2.0.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=estree-walker&pkgVersion=2.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2VzdHJlZS13YWxrZXIvLS9lc3RyZWUtd2Fsa2VyLTIuMC4yLnRneg==#52f010178c2a4c117a7757cfe942adb7d2da4cac"
+  integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
+
 esutils@^2.0.2:
   version "2.0.3"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=esutils&pkgVersion=2.0.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2VzdXRpbHMvLS9lc3V0aWxzLTIuMC4zLnRneg==#74d2eb4de0b8da1293711910d50775b9b710ef64"
@@ -1298,7 +1674,7 @@ ignore@^7.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ignore&pkgVersion=7.0.5&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2lnbm9yZS8tL2lnbm9yZS03LjAuNS50Z3o=#4cb5f6cd7d4c7ab0365738c7aea888baa6d7efd9"
   integrity sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==
 
-import-fresh@^3.2.1:
+import-fresh@^3.2.1, import-fresh@^3.3.0:
   version "3.3.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=import-fresh&pkgVersion=3.3.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2ltcG9ydC1mcmVzaC8tL2ltcG9ydC1mcmVzaC0zLjMuMS50Z3o=#9cecb56503c0ada1f2741dbbd6546e4b13b57ccf"
   integrity sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==
@@ -1310,6 +1686,11 @@ imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=imurmurhash&pkgVersion=0.1.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2ltdXJtdXJoYXNoLy0vaW11cm11cmhhc2gtMC4xLjQudGd6#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==
+
+is-arrayish@^0.2.1:
+  version "0.2.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=is-arrayish&pkgVersion=0.2.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2lzLWFycmF5aXNoLy0vaXMtYXJyYXlpc2gtMC4yLjEudGd6#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
+  integrity sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==
 
 is-extglob@^2.1.1:
   version "2.1.1"
@@ -1360,6 +1741,11 @@ json-buffer@3.0.1:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=json-buffer&pkgVersion=3.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2pzb24tYnVmZmVyLy0vanNvbi1idWZmZXItMy4wLjEudGd6#9338802a30d3b6605fbe0613e094008ca8c05a13"
   integrity sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==
 
+json-parse-even-better-errors@^2.3.0:
+  version "2.3.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=json-parse-even-better-errors&pkgVersion=2.3.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2pzb24tcGFyc2UtZXZlbi1iZXR0ZXItZXJyb3JzLy0vanNvbi1wYXJzZS1ldmVuLWJldHRlci1lcnJvcnMtMi4zLjEudGd6#7c47805a94319928e05777405dc12e1f7a4ee02d"
+  integrity sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==
+
 json-schema-traverse@^0.4.1:
   version "0.4.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=json-schema-traverse&pkgVersion=0.4.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2pzb24tc2NoZW1hLXRyYXZlcnNlLy0vanNvbi1zY2hlbWEtdHJhdmVyc2UtMC40LjEudGd6#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
@@ -1369,6 +1755,13 @@ json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=json-stable-stringify-without-jsonify&pkgVersion=1.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2pzb24tc3RhYmxlLXN0cmluZ2lmeS13aXRob3V0LWpzb25pZnkvLS9qc29uLXN0YWJsZS1zdHJpbmdpZnktd2l0aG91dC1qc29uaWZ5LTEuMC4xLnRneg==#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==
+
+json2mq@^0.2.0:
+  version "0.2.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=json2mq&pkgVersion=0.2.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2pzb24ybXEvLS9qc29uMm1xLTAuMi4wLnRneg==#b637bd3ba9eabe122c83e9720483aeb10d2c904a"
+  integrity sha512-SzoRg7ux5DWTII9J2qkrZrqV1gt+rTaoufMxEzXbS26Uid0NwaJd123HcoB80TgubEppxxIGdNxCx50fEoEWQA==
+  dependencies:
+    string-convert "^0.2.0"
 
 json5@^2.2.3:
   version "2.2.3"
@@ -1458,6 +1851,11 @@ lightningcss@1.30.1:
     lightningcss-win32-arm64-msvc "1.30.1"
     lightningcss-win32-x64-msvc "1.30.1"
 
+lines-and-columns@^1.1.6:
+  version "1.2.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=lines-and-columns&pkgVersion=1.2.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2xpbmVzLWFuZC1jb2x1bW5zLy0vbGluZXMtYW5kLWNvbHVtbnMtMS4yLjQudGd6#eca284f75d2965079309dc0ad9255abb2ebc1632"
+  integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
+
 locate-path@^6.0.0:
   version "6.0.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=locate-path&pkgVersion=6.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2xvY2F0ZS1wYXRoLy0vbG9jYXRlLXBhdGgtNi4wLjAudGd6#55321eb309febbc59c4801d931a72452a681d286"
@@ -1469,6 +1867,13 @@ lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=lodash.merge&pkgVersion=4.6.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2xvZGFzaC5tZXJnZS8tL2xvZGFzaC5tZXJnZS00LjYuMi50Z3o=#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
+
+lower-case@^2.0.2:
+  version "2.0.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=lower-case&pkgVersion=2.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2xvd2VyLWNhc2UvLS9sb3dlci1jYXNlLTIuMC4yLnRneg==#6fa237c63dbdc4a82ca0fd882e4722dc5e634e28"
+  integrity sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==
+  dependencies:
+    tslib "^2.0.3"
 
 lru-cache@^5.1.1:
   version "5.1.1"
@@ -1543,6 +1948,14 @@ natural-compare@^1.4.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=natural-compare&pkgVersion=1.4.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25hdHVyYWwtY29tcGFyZS8tL25hdHVyYWwtY29tcGFyZS0xLjQuMC50Z3o=#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
+no-case@^3.0.4:
+  version "3.0.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=no-case&pkgVersion=3.0.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25vLWNhc2UvLS9uby1jYXNlLTMuMC40LnRneg==#d361fd5c9800f558551a8369fc0dcd4662b6124d"
+  integrity sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==
+  dependencies:
+    lower-case "^2.0.2"
+    tslib "^2.0.3"
+
 node-releases@^2.0.19:
   version "2.0.20"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=node-releases&pkgVersion=2.0.20&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25vZGUtcmVsZWFzZXMvLS9ub2RlLXJlbGVhc2VzLTIuMC4yMC50Z3o=#e26bb79dbdd1e64a146df389c699014c611cbc27"
@@ -1581,6 +1994,16 @@ parent-module@^1.0.0:
   dependencies:
     callsites "^3.0.0"
 
+parse-json@^5.2.0:
+  version "5.2.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=parse-json&pkgVersion=5.2.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3BhcnNlLWpzb24vLS9wYXJzZS1qc29uLTUuMi4wLnRneg==#c76fc66dee54231c962b22bcc8a72cf2f99753cd"
+  integrity sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    error-ex "^1.3.1"
+    json-parse-even-better-errors "^2.3.0"
+    lines-and-columns "^1.1.6"
+
 path-exists@^4.0.0:
   version "4.0.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=path-exists&pkgVersion=4.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3BhdGgtZXhpc3RzLy0vcGF0aC1leGlzdHMtNC4wLjAudGd6#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
@@ -1590,6 +2013,11 @@ path-key@^3.1.0:
   version "3.1.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=path-key&pkgVersion=3.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3BhdGgta2V5Ly0vcGF0aC1rZXktMy4xLjEudGd6#581f6ade658cbba65a0d3380de7753295054f375"
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
+
+path-type@^4.0.0:
+  version "4.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=path-type&pkgVersion=4.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3BhdGgtdHlwZS8tL3BhdGgtdHlwZS00LjAuMC50Z3o=#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
+  integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
 picocolors@^1.1.1:
   version "1.1.1"
@@ -1601,7 +2029,7 @@ picomatch@^2.3.1:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=picomatch&pkgVersion=2.3.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3BpY29tYXRjaC8tL3BpY29tYXRjaC0yLjMuMS50Z3o=#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-picomatch@^4.0.3:
+picomatch@^4.0.2, picomatch@^4.0.3:
   version "4.0.3"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=picomatch&pkgVersion=4.0.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3BpY29tYXRjaC8tL3BpY29tYXRjaC00LjAuMy50Z3o=#796c76136d1eead715db1e7bad785dedd695a042"
   integrity sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==
@@ -1640,12 +2068,368 @@ queue-microtask@^1.2.2:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=queue-microtask&pkgVersion=1.2.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3F1ZXVlLW1pY3JvdGFzay8tL3F1ZXVlLW1pY3JvdGFzay0xLjIuMy50Z3o=#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+rc-cascader@~3.34.0:
+  version "3.34.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-cascader&pkgVersion=3.34.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWNhc2NhZGVyLy0vcmMtY2FzY2FkZXItMy4zNC4wLnRneg==#56f936ab6b1229bab7d558701ce9b9e96536582c"
+  integrity sha512-KpXypcvju9ptjW9FaN2NFcA2QH9E9LHKq169Y0eWtH4e/wHQ5Wh5qZakAgvb8EKZ736WZ3B0zLLOBsrsja5Dag==
+  dependencies:
+    "@babel/runtime" "^7.25.7"
+    classnames "^2.3.1"
+    rc-select "~14.16.2"
+    rc-tree "~5.13.0"
+    rc-util "^5.43.0"
+
+rc-checkbox@~3.5.0:
+  version "3.5.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-checkbox&pkgVersion=3.5.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWNoZWNrYm94Ly0vcmMtY2hlY2tib3gtMy41LjAudGd6#3ae2441e3a321774d390f76539e706864fcf5ff0"
+  integrity sha512-aOAQc3E98HteIIsSqm6Xk2FPKIER6+5vyEFMZfo73TqM+VVAIqOkHoPjgKLqSNtVLWScoaM7vY2ZrGEheI79yg==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "^2.3.2"
+    rc-util "^5.25.2"
+
+rc-collapse@~3.9.0:
+  version "3.9.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-collapse&pkgVersion=3.9.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWNvbGxhcHNlLy0vcmMtY29sbGFwc2UtMy45LjAudGd6#972404ce7724e1c9d1d2476543e1175404a36806"
+  integrity sha512-swDdz4QZ4dFTo4RAUMLL50qP0EY62N2kvmk2We5xYdRwcRn8WcYtuetCJpwpaCbUfUt5+huLpVxhvmnK+PHrkA==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "2.x"
+    rc-motion "^2.3.4"
+    rc-util "^5.27.0"
+
+rc-dialog@~9.6.0:
+  version "9.6.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-dialog&pkgVersion=9.6.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWRpYWxvZy8tL3JjLWRpYWxvZy05LjYuMC50Z3o=#dc7a255c6ad1cb56021c3a61c7de86ee88c7c371"
+  integrity sha512-ApoVi9Z8PaCQg6FsUzS8yvBEQy0ZL2PkuvAgrmohPkN3okps5WZ5WQWPc1RNuiOKaAYv8B97ACdsFU5LizzCqg==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    "@rc-component/portal" "^1.0.0-8"
+    classnames "^2.2.6"
+    rc-motion "^2.3.0"
+    rc-util "^5.21.0"
+
+rc-drawer@~7.3.0:
+  version "7.3.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-drawer&pkgVersion=7.3.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWRyYXdlci8tL3JjLWRyYXdlci03LjMuMC50Z3o=#1bb5fe5f9da38b6a2b2a7dffc9fcb647252a328f"
+  integrity sha512-DX6CIgiBWNpJIMGFO8BAISFkxiuKitoizooj4BDyee8/SnBn0zwO2FHrNDpqqepj0E/TFTDpmEBCyFuTgC7MOg==
+  dependencies:
+    "@babel/runtime" "^7.23.9"
+    "@rc-component/portal" "^1.1.1"
+    classnames "^2.2.6"
+    rc-motion "^2.6.1"
+    rc-util "^5.38.1"
+
+rc-dropdown@~4.2.0, rc-dropdown@~4.2.1:
+  version "4.2.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-dropdown&pkgVersion=4.2.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWRyb3Bkb3duLy0vcmMtZHJvcGRvd24tNC4yLjEudGd6#44729eb2a4272e0353d31ac060da21e606accb1c"
+  integrity sha512-YDAlXsPv3I1n42dv1JpdM7wJ+gSUBfeyPK59ZpBD9jQhK9jVuxpjj3NmWQHOBceA1zEPVX84T2wbdb2SD0UjmA==
+  dependencies:
+    "@babel/runtime" "^7.18.3"
+    "@rc-component/trigger" "^2.0.0"
+    classnames "^2.2.6"
+    rc-util "^5.44.1"
+
+rc-field-form@~2.7.0:
+  version "2.7.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-field-form&pkgVersion=2.7.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWZpZWxkLWZvcm0vLS9yYy1maWVsZC1mb3JtLTIuNy4wLnRneg==#22413e793f35bfc1f35b0ec462774d7277f5a399"
+  integrity sha512-hgKsCay2taxzVnBPZl+1n4ZondsV78G++XVsMIJCAoioMjlMQR9YwAp7JZDIECzIu2Z66R+f4SFIRrO2DjDNAA==
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@rc-component/async-validator" "^5.0.3"
+    rc-util "^5.32.2"
+
+rc-image@~7.12.0:
+  version "7.12.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-image&pkgVersion=7.12.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWltYWdlLy0vcmMtaW1hZ2UtNy4xMi4wLnRneg==#95e9314701e668217d113c1f29b4f01ac025cafe"
+  integrity sha512-cZ3HTyyckPnNnUb9/DRqduqzLfrQRyi+CdHjdqgsyDpI3Ln5UX1kXnAhPBSJj9pVRzwRFgqkN7p9b6HBDjmu/Q==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    "@rc-component/portal" "^1.0.2"
+    classnames "^2.2.6"
+    rc-dialog "~9.6.0"
+    rc-motion "^2.6.2"
+    rc-util "^5.34.1"
+
+rc-input-number@~9.5.0:
+  version "9.5.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-input-number&pkgVersion=9.5.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWlucHV0LW51bWJlci8tL3JjLWlucHV0LW51bWJlci05LjUuMC50Z3o=#b47963d0f2cbd85ab2f1badfdc089a904c073f38"
+  integrity sha512-bKaEvB5tHebUURAEXw35LDcnRZLq3x1k7GxfAqBMzmpHkDGzjAtnUL8y4y5N15rIFIg5IJgwr211jInl3cipag==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    "@rc-component/mini-decimal" "^1.0.1"
+    classnames "^2.2.5"
+    rc-input "~1.8.0"
+    rc-util "^5.40.1"
+
+rc-input@~1.8.0:
+  version "1.8.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-input&pkgVersion=1.8.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLWlucHV0Ly0vcmMtaW5wdXQtMS44LjAudGd6#d2f4404befebf2fbdc28390d5494c302f74ae974"
+  integrity sha512-KXvaTbX+7ha8a/k+eg6SYRVERK0NddX8QX7a7AnRvUa/rEH0CNMlpcBzBkhI0wp2C8C4HlMoYl8TImSN+fuHKA==
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    classnames "^2.2.1"
+    rc-util "^5.18.1"
+
+rc-mentions@~2.20.0:
+  version "2.20.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-mentions&pkgVersion=2.20.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLW1lbnRpb25zLy0vcmMtbWVudGlvbnMtMi4yMC4wLnRneg==#3bbeac0352b02e0ce3e1244adb48701bb6903bf7"
+  integrity sha512-w8HCMZEh3f0nR8ZEd466ATqmXFCMGMN5UFCzEUL0bM/nGw/wOS2GgRzKBcm19K++jDyuWCOJOdgcKGXU3fXfbQ==
+  dependencies:
+    "@babel/runtime" "^7.22.5"
+    "@rc-component/trigger" "^2.0.0"
+    classnames "^2.2.6"
+    rc-input "~1.8.0"
+    rc-menu "~9.16.0"
+    rc-textarea "~1.10.0"
+    rc-util "^5.34.1"
+
+rc-menu@~9.16.0, rc-menu@~9.16.1:
+  version "9.16.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-menu&pkgVersion=9.16.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLW1lbnUvLS9yYy1tZW51LTkuMTYuMS50Z3o=#9df1168e41d87dc7164c582173e1a1d32011899f"
+  integrity sha512-ghHx6/6Dvp+fw8CJhDUHFHDJ84hJE3BXNCzSgLdmNiFErWSOaZNsihDAsKq9ByTALo/xkNIwtDFGIl6r+RPXBg==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    "@rc-component/trigger" "^2.0.0"
+    classnames "2.x"
+    rc-motion "^2.4.3"
+    rc-overflow "^1.3.1"
+    rc-util "^5.27.0"
+
+rc-motion@^2.0.0, rc-motion@^2.0.1, rc-motion@^2.3.0, rc-motion@^2.3.4, rc-motion@^2.4.3, rc-motion@^2.4.4, rc-motion@^2.6.1, rc-motion@^2.6.2, rc-motion@^2.9.0, rc-motion@^2.9.5:
+  version "2.9.5"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-motion&pkgVersion=2.9.5&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLW1vdGlvbi8tL3JjLW1vdGlvbi0yLjkuNS50Z3o=#12c6ead4fd355f94f00de9bb4f15df576d677e0c"
+  integrity sha512-w+XTUrfh7ArbYEd2582uDrEhmBHwK1ZENJiSJVb7uRxdE7qJSYjbO2eksRXmndqyKqKoYPc9ClpPh5242mV1vA==
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    classnames "^2.2.1"
+    rc-util "^5.44.0"
+
+rc-notification@~5.6.4:
+  version "5.6.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-notification&pkgVersion=5.6.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLW5vdGlmaWNhdGlvbi8tL3JjLW5vdGlmaWNhdGlvbi01LjYuNC50Z3o=#ea89c39c13cd517fdfd97fe63f03376fabb78544"
+  integrity sha512-KcS4O6B4qzM3KH7lkwOB7ooLPZ4b6J+VMmQgT51VZCeEcmghdeR4IrMcFq0LG+RPdnbe/ArT086tGM8Snimgiw==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "2.x"
+    rc-motion "^2.9.0"
+    rc-util "^5.20.1"
+
+rc-overflow@^1.3.1, rc-overflow@^1.3.2:
+  version "1.4.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-overflow&pkgVersion=1.4.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLW92ZXJmbG93Ly0vcmMtb3ZlcmZsb3ctMS40LjEudGd6#e1bcf0375979c24cffa2d87bf83a19ded5fcdf45"
+  integrity sha512-3MoPQQPV1uKyOMVNd6SZfONi+f3st0r8PksexIdBTeIYbMX0Jr+k7pHEDvsXtR4BpCv90/Pv2MovVNhktKrwvw==
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    classnames "^2.2.1"
+    rc-resize-observer "^1.0.0"
+    rc-util "^5.37.0"
+
+rc-pagination@~5.1.0:
+  version "5.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-pagination&pkgVersion=5.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXBhZ2luYXRpb24vLS9yYy1wYWdpbmF0aW9uLTUuMS4wLnRneg==#a6e63a2c5db29e62f991282eb18a2d3ee725ba8b"
+  integrity sha512-8416Yip/+eclTFdHXLKTxZvn70duYVGTvUUWbckCCZoIl3jagqke3GLsFrMs0bsQBikiYpZLD9206Ej4SOdOXQ==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "^2.3.2"
+    rc-util "^5.38.0"
+
+rc-picker@~4.11.3:
+  version "4.11.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-picker&pkgVersion=4.11.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXBpY2tlci8tL3JjLXBpY2tlci00LjExLjMudGd6#7e7e3ad83aa461c284b8391c697492d1c34d2cb8"
+  integrity sha512-MJ5teb7FlNE0NFHTncxXQ62Y5lytq6sh5nUw0iH8OkHL/TjARSEvSHpr940pWgjGANpjCwyMdvsEV55l5tYNSg==
+  dependencies:
+    "@babel/runtime" "^7.24.7"
+    "@rc-component/trigger" "^2.0.0"
+    classnames "^2.2.1"
+    rc-overflow "^1.3.2"
+    rc-resize-observer "^1.4.0"
+    rc-util "^5.43.0"
+
+rc-progress@~4.0.0:
+  version "4.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-progress&pkgVersion=4.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXByb2dyZXNzLy0vcmMtcHJvZ3Jlc3MtNC4wLjAudGd6#5382147d9add33d3a5fbd264001373df6440e126"
+  integrity sha512-oofVMMafOCokIUIBnZLNcOZFsABaUw8PPrf1/y0ZBvKZNpOiu5h4AO9vv11Sw0p4Hb3D0yGWuEattcQGtNJ/aw==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "^2.2.6"
+    rc-util "^5.16.1"
+
+rc-rate@~2.13.1:
+  version "2.13.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-rate&pkgVersion=2.13.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXJhdGUvLS9yYy1yYXRlLTIuMTMuMS50Z3o=#29af7a3d4768362e9d4388f955a8b6389526b7fd"
+  integrity sha512-QUhQ9ivQ8Gy7mtMZPAjLbxBt5y9GRp65VcUyGUMF3N3fhiftivPHdpuDIaWIMOTEprAjZPC08bls1dQB+I1F2Q==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "^2.2.5"
+    rc-util "^5.0.1"
+
+rc-resize-observer@^1.0.0, rc-resize-observer@^1.1.0, rc-resize-observer@^1.3.1, rc-resize-observer@^1.4.0, rc-resize-observer@^1.4.3:
+  version "1.4.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-resize-observer&pkgVersion=1.4.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXJlc2l6ZS1vYnNlcnZlci8tL3JjLXJlc2l6ZS1vYnNlcnZlci0xLjQuMy50Z3o=#4fd41fa561ba51362b5155a07c35d7c89a1ea569"
+  integrity sha512-YZLjUbyIWox8E9i9C3Tm7ia+W7euPItNWSPX5sCcQTYbnwDb5uNpnLHQCG1f22oZWUhLw4Mv2tFmeWe68CDQRQ==
+  dependencies:
+    "@babel/runtime" "^7.20.7"
+    classnames "^2.2.1"
+    rc-util "^5.44.1"
+    resize-observer-polyfill "^1.5.1"
+
+rc-segmented@~2.7.0:
+  version "2.7.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-segmented&pkgVersion=2.7.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXNlZ21lbnRlZC8tL3JjLXNlZ21lbnRlZC0yLjcuMC50Z3o=#f56c2044abf8f03958b3a9a9d32987f10dcc4fc4"
+  integrity sha512-liijAjXz+KnTRVnxxXG2sYDGd6iLL7VpGGdR8gwoxAXy2KglviKCxLWZdjKYJzYzGSUwKDSTdYk8brj54Bn5BA==
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    classnames "^2.2.1"
+    rc-motion "^2.4.4"
+    rc-util "^5.17.0"
+
+rc-select@~14.16.2, rc-select@~14.16.8:
+  version "14.16.8"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-select&pkgVersion=14.16.8&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXNlbGVjdC8tL3JjLXNlbGVjdC0xNC4xNi44LnRneg==#78e6782f1ccc1f03d9003bc3effa4ed609d29a97"
+  integrity sha512-NOV5BZa1wZrsdkKaiK7LHRuo5ZjZYMDxPP6/1+09+FB4KoNi8jcG1ZqLE3AVCxEsYMBe65OBx71wFoHRTP3LRg==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    "@rc-component/trigger" "^2.1.1"
+    classnames "2.x"
+    rc-motion "^2.0.1"
+    rc-overflow "^1.3.1"
+    rc-util "^5.16.1"
+    rc-virtual-list "^3.5.2"
+
+rc-slider@~11.1.8:
+  version "11.1.8"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-slider&pkgVersion=11.1.8&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXNsaWRlci8tL3JjLXNsaWRlci0xMS4xLjgudGd6#cf3b30dacac8f98d44f7685f733f6f7da146fc06"
+  integrity sha512-2gg/72YFSpKP+Ja5AjC5DPL1YnV8DEITDQrcc1eASrUYjl0esptaBVJBh5nLTXCCp15eD8EuGjwezVGSHhs9tQ==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "^2.2.5"
+    rc-util "^5.36.0"
+
+rc-steps@~6.0.1:
+  version "6.0.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-steps&pkgVersion=6.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXN0ZXBzLy0vcmMtc3RlcHMtNi4wLjEudGd6#c2136cd0087733f6d509209a84a5c80dc29a274d"
+  integrity sha512-lKHL+Sny0SeHkQKKDJlAjV5oZ8DwCdS2hFhAkIjuQt1/pB81M0cA0ErVFdHq9+jmPmFw1vJB2F5NBzFXLJxV+g==
+  dependencies:
+    "@babel/runtime" "^7.16.7"
+    classnames "^2.2.3"
+    rc-util "^5.16.1"
+
+rc-switch@~4.1.0:
+  version "4.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-switch&pkgVersion=4.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXN3aXRjaC8tL3JjLXN3aXRjaC00LjEuMC50Z3o=#f37d81b4e0c5afd1274fd85367b17306bf25e7d7"
+  integrity sha512-TI8ufP2Az9oEbvyCeVE4+90PDSljGyuwix3fV58p7HV2o4wBnVToEyomJRVyTaZeqNPAp+vqeo4Wnj5u0ZZQBg==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
+    classnames "^2.2.1"
+    rc-util "^5.30.0"
+
+rc-table@~7.52.6:
+  version "7.52.7"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-table&pkgVersion=7.52.7&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXRhYmxlLy0vcmMtdGFibGUtNy41Mi43LnRneg==#ad816bbcfe3491581d9140a59a9e43fd08327211"
+  integrity sha512-yuZfnTpuHwRa4JH+F28wQfGeDzqtgIDvLBBJk5sFncXQjTExhtBNc6dPfVo5pL5SjabJEoejefs6wsrAKfhDoQ==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    "@rc-component/context" "^1.4.0"
+    classnames "^2.2.5"
+    rc-resize-observer "^1.1.0"
+    rc-util "^5.44.3"
+    rc-virtual-list "^3.14.2"
+
+rc-tabs@~15.7.0:
+  version "15.7.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-tabs&pkgVersion=15.7.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXRhYnMvLS9yYy10YWJzLTE1LjcuMC50Z3o=#14ca2ee6213d00491a8b67ae26e2d35c256bf19a"
+  integrity sha512-ZepiE+6fmozYdWf/9gVp7k56PKHB1YYoDsKeQA1CBlJ/POIhjkcYiv0AGP0w2Jhzftd3AVvZP/K+V+Lpi2ankA==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    classnames "2.x"
+    rc-dropdown "~4.2.0"
+    rc-menu "~9.16.0"
+    rc-motion "^2.6.2"
+    rc-resize-observer "^1.0.0"
+    rc-util "^5.34.1"
+
+rc-textarea@~1.10.0, rc-textarea@~1.10.2:
+  version "1.10.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-textarea&pkgVersion=1.10.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXRleHRhcmVhLy0vcmMtdGV4dGFyZWEtMS4xMC4yLnRneg==#459e3574a95c32939c6793045a1e4db04cb514cc"
+  integrity sha512-HfaeXiaSlpiSp0I/pvWpecFEHpVysZ9tpDLNkxQbMvMz6gsr7aVZ7FpWP9kt4t7DB+jJXesYS0us1uPZnlRnwQ==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "^2.2.1"
+    rc-input "~1.8.0"
+    rc-resize-observer "^1.0.0"
+    rc-util "^5.27.0"
+
+rc-tooltip@~6.4.0:
+  version "6.4.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-tooltip&pkgVersion=6.4.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXRvb2x0aXAvLS9yYy10b29sdGlwLTYuNC4wLnRneg==#e832ed0392872025e59928cfc1ad9045656467fd"
+  integrity sha512-kqyivim5cp8I5RkHmpsp1Nn/Wk+1oeloMv9c7LXNgDxUpGm+RbXJGL+OPvDlcRnx9DBeOe4wyOIl4OKUERyH1g==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    "@rc-component/trigger" "^2.0.0"
+    classnames "^2.3.1"
+    rc-util "^5.44.3"
+
+rc-tree-select@~5.27.0:
+  version "5.27.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-tree-select&pkgVersion=5.27.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXRyZWUtc2VsZWN0Ly0vcmMtdHJlZS1zZWxlY3QtNS4yNy4wLnRneg==#3daa62972ae80846dac96bf4776d1a9dc9c7c4c6"
+  integrity sha512-2qTBTzwIT7LRI1o7zLyrCzmo5tQanmyGbSaGTIf7sYimCklAToVVfpMC6OAldSKolcnjorBYPNSKQqJmN3TCww==
+  dependencies:
+    "@babel/runtime" "^7.25.7"
+    classnames "2.x"
+    rc-select "~14.16.2"
+    rc-tree "~5.13.0"
+    rc-util "^5.43.0"
+
+rc-tree@~5.13.0, rc-tree@~5.13.1:
+  version "5.13.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-tree&pkgVersion=5.13.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXRyZWUvLS9yYy10cmVlLTUuMTMuMS50Z3o=#f36a33a94a1282f4b09685216c01487089748910"
+  integrity sha512-FNhIefhftobCdUJshO7M8uZTA9F4OPGVXqGfZkkD/5soDeOhwO06T/aKTrg0WD8gRg/pyfq+ql3aMymLHCTC4A==
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "2.x"
+    rc-motion "^2.0.1"
+    rc-util "^5.16.1"
+    rc-virtual-list "^3.5.1"
+
+rc-upload@~4.9.2:
+  version "4.9.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-upload&pkgVersion=4.9.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXVwbG9hZC8tL3JjLXVwbG9hZC00LjkuMi50Z3o=#297f52fd1b1c2a4b570c3e42444609b7530531bb"
+  integrity sha512-nHx+9rbd1FKMiMRYsqQ3NkXUv7COHPBo3X1Obwq9SWS6/diF/A0aJ5OHubvwUAIDs+4RMleljV0pcrNUc823GQ==
+  dependencies:
+    "@babel/runtime" "^7.18.3"
+    classnames "^2.2.5"
+    rc-util "^5.2.0"
+
+rc-util@^5.0.1, rc-util@^5.16.1, rc-util@^5.17.0, rc-util@^5.18.1, rc-util@^5.2.0, rc-util@^5.20.1, rc-util@^5.21.0, rc-util@^5.24.4, rc-util@^5.25.2, rc-util@^5.27.0, rc-util@^5.30.0, rc-util@^5.31.1, rc-util@^5.32.2, rc-util@^5.34.1, rc-util@^5.35.0, rc-util@^5.36.0, rc-util@^5.37.0, rc-util@^5.38.0, rc-util@^5.38.1, rc-util@^5.40.1, rc-util@^5.43.0, rc-util@^5.44.0, rc-util@^5.44.1, rc-util@^5.44.3, rc-util@^5.44.4:
+  version "5.44.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-util&pkgVersion=5.44.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXV0aWwvLS9yYy11dGlsLTUuNDQuNC50Z3o=#89ee9037683cca01cd60f1a6bbda761457dd6ba5"
+  integrity sha512-resueRJzmHG9Q6rI/DfK6Kdv9/Lfls05vzMs1Sk3M2P+3cJa+MakaZyWY8IPfehVuhPJFKrIY1IK4GqbiaiY5w==
+  dependencies:
+    "@babel/runtime" "^7.18.3"
+    react-is "^18.2.0"
+
+rc-virtual-list@^3.14.2, rc-virtual-list@^3.5.1, rc-virtual-list@^3.5.2:
+  version "3.19.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=rc-virtual-list&pkgVersion=3.19.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JjLXZpcnR1YWwtbGlzdC8tL3JjLXZpcnR1YWwtbGlzdC0zLjE5LjIudGd6#1dd2d782c9a3ccbe537bb873447d73f83af8de0f"
+  integrity sha512-Ys6NcjwGkuwkeaWBDqfI3xWuZ7rDiQXlH1o2zLfFzATfEgXcqpk8CkgMfbJD81McqjcJVez25a3kPxCR807evA==
+  dependencies:
+    "@babel/runtime" "^7.20.0"
+    classnames "^2.2.6"
+    rc-resize-observer "^1.0.0"
+    rc-util "^5.36.0"
+
 react-dom@^19.1.1:
   version "19.1.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=react-dom&pkgVersion=19.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JlYWN0LWRvbS8tL3JlYWN0LWRvbS0xOS4xLjEudGd6#2daa9ff7f3ae384aeb30e76d5ee38c046dc89893"
   integrity sha512-Dlq/5LAZgF0Gaz6yiqZCf6VCcZs1ghAJyrsu84Q/GT0gV+mCxbfmKNoGRKBYMJ8IEdGPqu49YWXD02GCknEDkw==
   dependencies:
     scheduler "^0.26.0"
+
+react-is@^18.2.0:
+  version "18.3.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=react-is&pkgVersion=18.3.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JlYWN0LWlzLy0vcmVhY3QtaXMtMTguMy4xLnRneg==#e83557dc12eae63a99e003a46388b1dcbb44db7e"
+  integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
 
 react-refresh@^0.17.0:
   version "0.17.0"
@@ -1656,6 +2440,11 @@ react@^19.1.1:
   version "19.1.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=react&pkgVersion=19.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JlYWN0Ly0vcmVhY3QtMTkuMS4xLnRneg==#06d9149ec5e083a67f9a1e39ce97b06a03b644af"
   integrity sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==
+
+resize-observer-polyfill@^1.5.1:
+  version "1.5.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=resize-observer-polyfill&pkgVersion=1.5.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3Jlc2l6ZS1vYnNlcnZlci1wb2x5ZmlsbC8tL3Jlc2l6ZS1vYnNlcnZlci1wb2x5ZmlsbC0xLjUuMS50Z3o=#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-from@^4.0.0:
   version "4.0.0"
@@ -1709,6 +2498,13 @@ scheduler@^0.26.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=scheduler&pkgVersion=0.26.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NjaGVkdWxlci8tL3NjaGVkdWxlci0wLjI2LjAudGd6#4ce8a8c2a2095f13ea11bf9a445be50c555d6337"
   integrity sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==
 
+scroll-into-view-if-needed@^3.1.0:
+  version "3.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=scroll-into-view-if-needed&pkgVersion=3.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3Njcm9sbC1pbnRvLXZpZXctaWYtbmVlZGVkLy0vc2Nyb2xsLWludG8tdmlldy1pZi1uZWVkZWQtMy4xLjAudGd6#fa9524518c799b45a2ef6bbffb92bcad0296d01f"
+  integrity sha512-49oNpRjWRvnU8NyGVmUaYG4jtTkNonFZI86MmGRDqBphEK2EXT9gdEUoQPZhuBM8yWHxCWbobltqYO5M4XrUvQ==
+  dependencies:
+    compute-scroll-into-view "^3.0.2"
+
 semver@^6.3.1:
   version "6.3.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=semver&pkgVersion=6.3.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NlbXZlci8tL3NlbXZlci02LjMuMS50Z3o=#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
@@ -1731,15 +2527,33 @@ shebang-regex@^3.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=shebang-regex&pkgVersion=3.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NoZWJhbmctcmVnZXgvLS9zaGViYW5nLXJlZ2V4LTMuMC4wLnRneg==#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
+snake-case@^3.0.4:
+  version "3.0.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=snake-case&pkgVersion=3.0.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NuYWtlLWNhc2UvLS9zbmFrZS1jYXNlLTMuMC40LnRneg==#4f2bbd568e9935abdfd593f34c691dadb49c452c"
+  integrity sha512-LAOh4z89bGQvl9pFfNF8V146i7o7/CqFPbqzYgP+yYzDIDeS9HaNFtXABamRW+AQzEVODcvE79ljJ+8a9YSdMg==
+  dependencies:
+    dot-case "^3.0.4"
+    tslib "^2.0.3"
+
 source-map-js@^1.2.1:
   version "1.2.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=source-map-js&pkgVersion=1.2.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NvdXJjZS1tYXAtanMvLS9zb3VyY2UtbWFwLWpzLTEuMi4xLnRneg==#1ce5650fddd87abc099eda37dcff024c2667ae46"
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
+string-convert@^0.2.0:
+  version "0.2.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=string-convert&pkgVersion=0.2.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3N0cmluZy1jb252ZXJ0Ly0vc3RyaW5nLWNvbnZlcnQtMC4yLjEudGd6#6982cc3049fbb4cd85f8b24568b9d9bf39eeff97"
+  integrity sha512-u/1tdPl4yQnPBjnVrmdLo9gtuLvELKsAoRapekWggdiQNvvvum+jYF329d84NAa660KQw7pB2n36KrIKVoXa3A==
+
 strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=strip-json-comments&pkgVersion=3.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3N0cmlwLWpzb24tY29tbWVudHMvLS9zdHJpcC1qc29uLWNvbW1lbnRzLTMuMS4xLnRneg==#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
+
+stylis@^4.3.4:
+  version "4.3.6"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=stylis&pkgVersion=4.3.6&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3N0eWxpcy8tL3N0eWxpcy00LjMuNi50Z3o=#7c7b97191cb4f195f03ecab7d52f7902ed378320"
+  integrity sha512-yQ3rwFWRfwNUY7H5vpU0wfdkNSnvnJinhF9830Swlaxl03zsOjCfmX0ugac+3LtK0lYSgwL/KXc8oYL3mG4YFQ==
 
 supports-color@^7.1.0:
   version "7.2.0"
@@ -1747,6 +2561,11 @@ supports-color@^7.1.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
+
+svg-parser@^2.0.4:
+  version "2.0.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=svg-parser&pkgVersion=2.0.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3N2Zy1wYXJzZXIvLS9zdmctcGFyc2VyLTIuMC40LnRneg==#fdc2e29e13951736140b76cb122c8ee6630eb6b5"
+  integrity sha512-e4hG1hRwoOdRb37cIMSgzNsxyzKfayW6VOflrwvR+/bzrkyxY/31WkbgnQpgtrNp1SdpJvpUAGTa/ZoiPNDuRQ==
 
 tailwindcss@4.1.13, tailwindcss@^4.1.13:
   version "4.1.13"
@@ -1770,6 +2589,11 @@ tar@^7.4.3:
     mkdirp "^3.0.1"
     yallist "^5.0.0"
 
+throttle-debounce@^5.0.0, throttle-debounce@^5.0.2:
+  version "5.0.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=throttle-debounce&pkgVersion=5.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3Rocm90dGxlLWRlYm91bmNlLy0vdGhyb3R0bGUtZGVib3VuY2UtNS4wLjIudGd6#ec5549d84e053f043c9fd0f2a6dd892ff84456b1"
+  integrity sha512-B71/4oyj61iNH0KeCamLuE2rmKuTO5byTOSVwECM5FA7TiAiAW+UqTKZ9ERueC4qvgSttUhdmq1mXC3kJqGX7A==
+
 tinyglobby@^0.2.15:
   version "0.2.15"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=tinyglobby&pkgVersion=0.2.15&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3RpbnlnbG9iYnkvLS90aW55Z2xvYmJ5LTAuMi4xNS50Z3o=#e228dd1e638cea993d2fdb4fcd2d4602a79951c2"
@@ -1785,12 +2609,17 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+toggle-selection@^1.0.6:
+  version "1.0.6"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=toggle-selection&pkgVersion=1.0.6&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3RvZ2dsZS1zZWxlY3Rpb24vLS90b2dnbGUtc2VsZWN0aW9uLTEuMC42LnRneg==#6e45b1263f2017fa0acc7d89d78b15b8bf77da32"
+  integrity sha512-BiZS+C1OS8g/q2RRbJmy59xpyghNBqrr6k5L/uKBGRsTfxmu3ffiRnd8mlGPUVayg8pvfi5urfnu8TU7DVOkLQ==
+
 ts-api-utils@^2.1.0:
   version "2.1.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ts-api-utils&pkgVersion=2.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3RzLWFwaS11dGlscy8tL3RzLWFwaS11dGlscy0yLjEuMC50Z3o=#595f7094e46eed364c13fd23e75f9513d29baf91"
   integrity sha512-CUgTZL1irw8u29bzrOD/nH85jqyc74D6SshFgujOIA7osm2Rz7dYH77agkx7H4FBNxDq7Cjf+IjaX/8zwFW+ZQ==
 
-tslib@^2.4.0, tslib@^2.8.0:
+tslib@^2.0.3, tslib@^2.4.0, tslib@^2.8.0:
   version "2.8.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=tslib&pkgVersion=2.8.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3RzbGliLy0vdHNsaWItMi44LjEudGd6#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
@@ -1817,6 +2646,11 @@ typescript@~5.8.3:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=typescript&pkgVersion=5.8.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3R5cGVzY3JpcHQvLS90eXBlc2NyaXB0LTUuOC4zLnRneg==#92f8a3e5e3cf497356f4178c34cd65a7f5e8440e"
   integrity sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==
 
+undici-types@~7.10.0:
+  version "7.10.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=undici-types&pkgVersion=7.10.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3VuZGljaS10eXBlcy8tL3VuZGljaS10eXBlcy03LjEwLjAudGd6#4ac2e058ce56b462b056e629cc6a02393d3ff350"
+  integrity sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==
+
 update-browserslist-db@^1.1.3:
   version "1.1.3"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=update-browserslist-db&pkgVersion=1.1.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3VwZGF0ZS1icm93c2Vyc2xpc3QtZGIvLS91cGRhdGUtYnJvd3NlcnNsaXN0LWRiLTEuMS4zLnRneg==#348377dd245216f9e7060ff50b15a1b740b75420"
@@ -1831,6 +2665,15 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+vite-plugin-svgr@^4.5.0:
+  version "4.5.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=vite-plugin-svgr&pkgVersion=4.5.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3ZpdGUtcGx1Z2luLXN2Z3IvLS92aXRlLXBsdWdpbi1zdmdyLTQuNS4wLnRneg==#253e4c703d1f0b30935c285ca8621f4857952338"
+  integrity sha512-W+uoSpmVkSmNOGPSsDCWVW/DDAyv+9fap9AZXBvWiQqrboJ08j2vh0tFxTD/LjwqwAd3yYSVJgm54S/1GhbdnA==
+  dependencies:
+    "@rollup/pluginutils" "^5.2.0"
+    "@svgr/core" "^8.1.0"
+    "@svgr/plugin-jsx" "^8.1.0"
 
 vite@^7.1.2:
   version "7.1.5"

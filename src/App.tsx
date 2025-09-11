@@ -1,11 +1,23 @@
-import { useState } from 'react'
-import siderCollapsedSvg from './assets/sider_collapsed.svg'
-import addChatSvg from './assets/add_chat.svg'
-import historySvg from './assets/history.svg'
-import HistoryList from './components/HistoryList'
+import { useEffect, useState } from 'react'
+import siderCollapsedSvg from '@/assets/sider_collapsed.svg'
+import addChatSvg from '@/assets/add_chat.svg'
+import historySvg from '@/assets/history.svg'
+import HistoryList from '@/components/HistoryList'
+import usePostStreamJSON from '@/hooks/usePostStreamJSON'
+import ChatInput from './components/chatInput'
 
 function App() {
   const [isCollapsed, setIsCollapsed] = useState(false)
+  const { status, error, data, historyList, post, abort, initHistory, selectHistoryItem } = usePostStreamJSON<any, any>()
+
+  useEffect(() => {
+    post('/api/generate', {
+      "model": "deepseek-coder",
+      "prompt": "请做一个自我介绍",
+      "stream": true
+    })
+  }, [])
+
   return <>
     <div className='w-screen h-screen flex  bg-gray-50'>
       <div className={`layout-transition ${!isCollapsed ? 'w-70' : 'w-0'}`}>
@@ -51,6 +63,12 @@ function App() {
           </>}
           <div className='overflow-ellipsis max-w-100'>主要题目主要题目主要题目主要题主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目主要题目目主要题目主要题目</div>
         </div>
+
+        {/* <pre>
+          {data.map((item, index) => item.response)}
+        </pre> */}
+
+        <ChatInput />
       </div>
     </div>
   </>

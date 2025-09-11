@@ -33,14 +33,11 @@ export type UsePostStreamJSONReturn<Req, Res> = {
   selectHistoryItem: (id: string) => void;
 };
 
-export default function usePostStreamJSON<Req = any, Res = any>():
-  UsePostStreamJSONReturn<Req, Res> {
+export default function usePostStreamJSON<Req = any, Res = any>(): UsePostStreamJSONReturn<Req, Res> {
 
-  /* ---------- 状态 ---------- */
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState<string | null>(null);
   const [data, setData] = useState<Res[]>([]);
-
   const [historyList, setHistoryList] = useState<HistoryItem<Req, Res>[]>([]);
 
   /* 保存当前请求的 AbortController */
