@@ -17,6 +17,7 @@ export default defineConfig({
       }
     }
   },
+  base: "/ai-agent-web/",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')
