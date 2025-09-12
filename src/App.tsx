@@ -33,7 +33,7 @@ function App() {
 
   return <>
     <div className='w-screen h-screen flex bg-gray-50'>
-      <div className={`layout-transition ${!isCollapsed ? 'w-70' : 'w-0'} absolute rounded-tr-2xl rounded-br-2xl bg-gray-50 z-1 h-full shadow-lg lg:relative`}>
+      <div className={`layout-transition ${!isCollapsed ? 'w-70' : 'w-0'} h-full absolute rounded-tr-2xl rounded-br-2xl bg-gray-50 z-1 shadow-lg lg:relative`}>
         <div className='flex flex-col p-3 pt-6 pb-6 h-full'>
           <div className='overflow-hidden'>
             <div className='flex justify-between items-center'>
@@ -59,14 +59,14 @@ function App() {
             </div>
           </div>
 
-          <div className='scrollbar-hide flex-1 overflow-auto'>
+          <div className='scrollbar-hide overflow-auto'>
             <HistoryList />
           </div>
         </div>
       </div>
 
       <div
-        className='layout-transition flex-1 overflow-auto flex flex-col m-3 p-3 rounded-lg bg-gradient-to-tr form-white to-blue-100'
+        className='layout-transition overflow-auto flex flex-col m-3 p-3 rounded-lg bg-gradient-to-tr form-white to-blue-100'
         onClick={() => { if (window.innerWidth < 1024) setIsCollapsed(true) }}
       >
         <div className='flex'>
@@ -90,13 +90,13 @@ function App() {
           <div className='flex-2'></div>
         </div>
 
-        <div className='flex-1 flex'>
+        <div className='overflow-auto flex h-full'>
           <div className='flex-1'></div>
-          <div className='flex-6 flex flex-col'>
-            <div className='scrollbar-hide h-full overflow-auto mt-3 mb-3'>
+          <div className='flex-5 flex flex-col'>
+            <div className='scrollbar-hide flex-1 overflow-auto  mb-3'>
               {historyList.map((item, index) => <>
-                <div>{item.req.prompt}</div>
-                <div>{item.res.map((res, index) => res.response)}</div>
+                <div className='mt-3'>{item.req.prompt}</div>
+                <div className='mt-3'>{item.res.map((res, index) => res.response)}</div>
               </>)}
             </div>
             <ChatInput post={post} status={status} abort={abort} />
