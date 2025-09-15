@@ -55,8 +55,8 @@ export default ({ post, status, abort }: {
                         onChange={setModel}
                         variant="borderless"
                         options={[{ value: 'qwen3:8b' }, { value: 'deepseek-coder' }]}
-                        className="hover:bg-blue-50 rounded-full  "
                     />
+
                     {(status === 'idle' || status === 'done') && <SendOutlined
                         className="cursor-pointer p-2 rounded-md hover:bg-blue-50"
                         onClick={handleSendMessage}
