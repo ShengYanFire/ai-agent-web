@@ -37,7 +37,7 @@ function App() {
         <div className='flex flex-col p-3 pt-6 pb-6 h-full'>
           <div className='overflow-hidden'>
             <div className='flex justify-between items-center'>
-              <img src='/ai-agent.svg' className='w-8' />
+              <img src='./ai-agent.svg' className='w-8' />
               <img
                 src={siderCollapsedSvg}
                 className='w-6   cursor-pointer rounded-lg p-1 hover:bg-gray-200'
@@ -59,14 +59,14 @@ function App() {
             </div>
           </div>
 
-          <div className='scrollbar-hide overflow-auto'>
+          <div className='scrollbar-hide overflow-auto flex-1'>
             <HistoryList />
           </div>
         </div>
       </div>
 
       <div
-        className='layout-transition overflow-auto flex flex-col m-3 p-3 rounded-lg bg-gradient-to-tr form-white to-blue-100'
+        className='layout-transition overflow-auto flex-1 flex flex-col m-3 p-3 rounded-lg bg-gradient-to-tr form-white to-blue-100'
         onClick={() => { if (window.innerWidth < 1024) setIsCollapsed(true) }}
       >
         <div className='flex'>
