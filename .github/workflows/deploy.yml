@@ -21,7 +21,7 @@ jobs:
           cache: npm          # 缓存依赖，提速
 
       - name: 3. 安装依赖
-        run: npm ci           # 比 npm install 更快更干净
+        run: npm i           # 比 npm install 更快更干净
 
       - name: 4. 构建项目
         run: npm run build
