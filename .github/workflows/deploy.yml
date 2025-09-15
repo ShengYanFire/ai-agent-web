@@ -24,11 +24,12 @@ jobs:
         run: npm i           # 比 npm install 更快更干净
 
       - name: 4. 构建项目
-        run: npm run build
+        run: npm run build && ls -la dist 
 
       - name: 5. 部署到 GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist        # Vite 默认输出目录
+          publish_dir: ${{ github.workspace }}/dist        # Vite 默认输出目录
           publish_branch: gh-pages   # 专用分支，无需手动创建
+          force_orphan: true 
