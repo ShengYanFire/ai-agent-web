@@ -1,6 +1,6 @@
 import { Input, message, Select } from "antd"
 import { useState } from "react"
-import { LoadingOutlined, SendOutlined } from "@ant-design/icons"
+import { SendOutlined } from "@ant-design/icons"
 import type { Status } from "@/hooks/usePostStreamJSON"
 import stopSvg from '@/assets/stop.svg'
 
