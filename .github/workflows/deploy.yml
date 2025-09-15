@@ -1,29 +1,34 @@
-name: Deploy to GitHub Pages
+name: Deploy Vite to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]          # main 分支有推送就触发
+
+permissions:
+  contents: write            # 允许 Actions 写 gh-pages 分支
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
+      - name: 1. 拉取代码
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '22.7.0'
+      - name: 2. 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.7.0
+          cache: npm          # 缓存依赖，提速
 
-    - name: Install dependencies
-      run: npm install
+      - name: 3. 安装依赖
+        run: npm ci           # 比 npm install 更快更干净
 
-    - name: Build project
-      run: npm run build
+      - name: 4. 构建项目
+        run: npm run build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist  # 或 ./build
+      - name: 5. 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist        # Vite 默认输出目录
+          publish_branch: gh-pages   # 专用分支，无需手动创建
