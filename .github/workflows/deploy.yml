@@ -2,7 +2,7 @@ name: Deploy Vite to GitHub Pages
 
 on:
   push:
-    branches: [main]          # main 分支有推送就触发
+    branches: [master]          # main 分支有推送就触发
 
 permissions:
   contents: write            # 允许 Actions 写 gh-pages 分支
