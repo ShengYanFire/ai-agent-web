@@ -84,7 +84,7 @@ function App() {
               />
             </>}
             <div className='truncate'>
-              主要题目主要题目主要题目主要题主要题目主要题目主要题主要题目主要题目主要题目主要题主要题目主要题目主要题
+              主要题目主要题目主要题目主要题主要题目12312321
             </div>
           </div>
           <div className='flex-2'></div>
