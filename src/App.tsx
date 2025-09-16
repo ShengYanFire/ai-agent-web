@@ -4,7 +4,7 @@ import addChatSvg from '@/assets/add_chat.svg'
 import historySvg from '@/assets/history.svg'
 import HistoryList from '@/components/HistoryList'
 import usePostStreamJSON from '@/hooks/usePostStreamJSON'
-import ChatInput from './components/chatInput'
+import ChatInput from '@/components/ChatInput'
 
 function App() {
   const [isCollapsed, setIsCollapsed] = useState(false)
@@ -40,7 +40,7 @@ function App() {
               <img src='./ai-agent.svg' className='w-8' />
               <img
                 src={siderCollapsedSvg}
-                className='w-6   cursor-pointer rounded-lg p-1 hover:bg-gray-200'
+                className='w-6 cursor-pointer rounded-lg p-1 hover:bg-gray-200'
                 onClick={() => setIsCollapsed(true)}
               />
             </div>
@@ -94,9 +94,9 @@ function App() {
           <div className='flex-1'></div>
           <div className='flex-5 flex flex-col'>
             <div className='scrollbar-hide flex-1 overflow-auto  mb-3'>
-              {historyList.map((item, index) => <>
+              {historyList.map((item: any) => <>
                 <div className='mt-3'>{item.req.prompt}</div>
-                <div className='mt-3'>{item.res.map((res, index) => res.response)}</div>
+                <div className='mt-3'>{item.res.map((res: any) => res.response)}</div>
               </>)}
             </div>
             <ChatInput post={post} status={status} abort={abort} />
