@@ -1,10 +1,9 @@
 import { useState } from "react"
 import type { Status } from "@/hooks/usePostStreamJSON"
-import stopSvg from '@/assets/stop.svg'
 import ModelSelect from "./ModelSelect"
 import { Textarea } from "./ui/textarea"
 import { cn } from "@/lib/utils"
-import sendSvg from '@/assets/AI_send.svg'
+import { CirclePause, Send } from "lucide-react"
 
 export default ({ post, status, abort }: {
     post: (url: string, body: any) => void,
@@ -50,15 +49,19 @@ export default ({ post, status, abort }: {
                 <div className="flex justify-end gap-1 items-center">
                     <ModelSelect model={model} setModel={setModel} />
 
-                    {(status === 'idle' || status === 'done') && <>
-                        <img src={sendSvg} className="w-9 p-2 cursor-pointer rounded-md hover:bg-blue-50" onClick={handleSendMessage} />
+                    {(status === 'idle' || status === 'done' || status === 'error') && <>
+                        <Send
+                            className="w-8 h-8 p-1  cursor-pointer rounded-md text-gray-600 hover:bg-blue-100"
+                            onClick={handleSendMessage}
+                        />
                     </>}
 
-                    {status === 'loading' && <img
-                        src={stopSvg}
-                        className="w-9 p-2 cursor-pointer rounded-md hover:bg-blue-50"
-                        onClick={abort}
-                    />}
+                    {status === 'loading' && <>
+                        <CirclePause
+                            className="w-8 h-8 p-1 cursor-pointer rounded-md text-gray-600 hover:bg-blue-100"
+                            onClick={abort}
+                        />
+                    </>}
                 </div>
             </div>
         </div>

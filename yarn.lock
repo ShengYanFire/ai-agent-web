@@ -1747,6 +1747,11 @@ lucide-react@^0.544.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=lucide-react&pkgVersion=0.544.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2x1Y2lkZS1yZWFjdC8tL2x1Y2lkZS1yZWFjdC0wLjU0NC4wLnRneg==#4719953c10fd53a64dd8343bb0ed16ec79f3eeef"
   integrity sha512-t5tS44bqd825zAW45UQxpG2CvcC4urOwn2TrwSH8u+MjeE+1NnWl6QqeQ/6NdjMqdOygyiT9p3Ev0p1NJykxjw==
 
+lucide@^0.544.0:
+  version "0.544.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=lucide&pkgVersion=0.544.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2x1Y2lkZS8tL2x1Y2lkZS0wLjU0NC4wLnRneg==#5674f6f2175cbb2f3c36f79e9e4007ef61bd2672"
+  integrity sha512-U5ORwr5z9Sx7bNTDFaW55RbjVdQEnAcT3vws9uz3vRT1G4XXJUDAhRZdxhFoIyHEvjmTkzzlEhjSLYM5n4mb5w==
+
 magic-string@^0.30.18:
   version "0.30.19"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=magic-string&pkgVersion=0.30.19&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL21hZ2ljLXN0cmluZy8tL21hZ2ljLXN0cmluZy0wLjMwLjE5LnRneg==#cebe9f104e565602e5d2098c5f2e79a77cc86da9"
