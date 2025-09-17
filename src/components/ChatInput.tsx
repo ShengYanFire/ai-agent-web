@@ -40,7 +40,7 @@ export default ({ post, status, abort }: {
         <div className="border-1 border-gray-300 rounded-2xl p-2 ">
             <Textarea
                 placeholder="请输入内容，Shift+Enter 换行"
-                className={cn('scrollbar-hide max-h-[100px] border-0 p-1 shadow-none  resize-none focus-visible:ring-0')}
+                className={cn('scrollbar-hide max-h-32 border-0 p-1 shadow-none  resize-none focus-visible:ring-0')}
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 onKeyDown={handleKeyDown}
