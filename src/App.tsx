@@ -54,7 +54,7 @@ function App() {
           </div>
 
           <div className='scrollbar-hide overflow-auto flex-1'>
-            <HistoryList />
+            <HistoryList data={historyList} />
           </div>
         </div>
       </div>
