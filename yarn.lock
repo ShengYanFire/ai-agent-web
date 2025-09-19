@@ -160,6 +160,11 @@
     "@babel/helper-string-parser" "^7.27.1"
     "@babel/helper-validator-identifier" "^7.27.1"
 
+"@cfworker/json-schema@^4.0.2":
+  version "4.1.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@cfworker/json-schema&pkgVersion=4.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BjZndvcmtlci9qc29uLXNjaGVtYS8tL2pzb24tc2NoZW1hLTQuMS4xLnRneg==#4a2a3947ee9fa7b7c24be981422831b8674c3be6"
+  integrity sha512-gAmrUZSGtKc3AiBL71iNWxDsyUC5uMaKKGdvzYsBoTW/xi42JQHl7eKV2OYzCUqvc+D2RCcf7EXY2iCyFIk6og==
+
 "@emnapi/core@^1.4.3", "@emnapi/core@^1.4.5":
   version "1.5.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@emnapi/core&pkgVersion=1.5.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BlbW5hcGkvY29yZS8tL2NvcmUtMS41LjAudGd6#85cd84537ec989cebb2343606a1ee663ce4edaf0"
@@ -405,6 +410,29 @@
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@floating-ui/utils&pkgVersion=0.2.10&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BmbG9hdGluZy11aS91dGlscy8tL3V0aWxzLTAuMi4xMC50Z3o=#a2a1e3812d14525f725d011a73eceb41fef5bc1c"
   integrity sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==
 
+"@graphql-typed-document-node/core@^3.2.0":
+  version "3.2.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@graphql-typed-document-node/core&pkgVersion=3.2.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BncmFwaHFsLXR5cGVkLWRvY3VtZW50LW5vZGUvY29yZS8tL2NvcmUtMy4yLjAudGd6#5f3d96ec6b2354ad6d8a28bf216a1d97b5426861"
+  integrity sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==
+
+"@grpc/grpc-js@^1.13.1":
+  version "1.14.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@grpc/grpc-js&pkgVersion=1.14.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BncnBjL2dycGMtanMvLS9ncnBjLWpzLTEuMTQuMC50Z3o=#a3c47e7816ca2b4d5490cba9e06a3cf324e675ad"
+  integrity sha512-N8Jx6PaYzcTRNzirReJCtADVoq4z7+1KQ4E70jTg/koQiMoUSN1kbNjPOqpPbhMFhfU1/l7ixspPl8dNY+FoUg==
+  dependencies:
+    "@grpc/proto-loader" "^0.8.0"
+    "@js-sdsl/ordered-map" "^4.4.2"
+
+"@grpc/proto-loader@^0.8.0":
+  version "0.8.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@grpc/proto-loader&pkgVersion=0.8.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BncnBjL3Byb3RvLWxvYWRlci8tL3Byb3RvLWxvYWRlci0wLjguMC50Z3o=#b6c324dd909c458a0e4aa9bfd3d69cf78a4b9bd8"
+  integrity sha512-rc1hOQtjIWGxcxpb9aHAfLpIctjEnsDehj0DAiVfBlmT84uvR0uUtN2hEi/ecvWVjXUGf5qPF4qEgiLOx1YIMQ==
+  dependencies:
+    lodash.camelcase "^4.3.0"
+    long "^5.0.0"
+    protobufjs "^7.5.3"
+    yargs "^17.7.2"
+
 "@humanfs/core@^0.19.1":
   version "0.19.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@humanfs/core&pkgVersion=0.19.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BodW1hbmZzL2NvcmUvLS9jb3JlLTAuMTkuMS50Z3o=#17c55ca7d426733fe3c561906b8173c336b40a77"
@@ -469,6 +497,104 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@js-sdsl/ordered-map@^4.4.2":
+  version "4.4.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@js-sdsl/ordered-map&pkgVersion=4.4.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bqcy1zZHNsL29yZGVyZWQtbWFwLy0vb3JkZXJlZC1tYXAtNC40LjIudGd6#9299f82874bab9e4c7f9c48d865becbfe8d6907c"
+  integrity sha512-iUKgm52T8HOE/makSxjqoWhe95ZJA1/G1sYsGev2JDKUSS14KAgg1LHb+Ba+IPow0xflbnSkOsZcO08C7w1gYw==
+
+"@langchain/community@^0.3.56":
+  version "0.3.56"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@langchain/community&pkgVersion=0.3.56&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BsYW5nY2hhaW4vY29tbXVuaXR5Ly0vY29tbXVuaXR5LTAuMy41Ni50Z3o=#ed01e18e89c5515ed241c381c47eb689b0a63395"
+  integrity sha512-lDjUnRfHAX7aMXyEB2EWbe5qOmdQdz8n+0CNQ4ExpLy3NOFQhEVkWclhsucaX04zh0r/VH5Pkk9djpnhPBDH7g==
+  dependencies:
+    "@langchain/openai" ">=0.2.0 <0.7.0"
+    "@langchain/weaviate" "^0.2.0"
+    binary-extensions "^2.2.0"
+    expr-eval "^2.0.2"
+    flat "^5.0.2"
+    js-yaml "^4.1.0"
+    langchain ">=0.2.3 <0.3.0 || >=0.3.4 <0.4.0"
+    langsmith "^0.3.67"
+    uuid "^10.0.0"
+    zod "^3.25.32"
+
+"@langchain/core@^0.3.77":
+  version "0.3.77"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@langchain/core&pkgVersion=0.3.77&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BsYW5nY2hhaW4vY29yZS8tL2NvcmUtMC4zLjc3LnRneg==#8c159991de5162e3a8d54d7c0b9e9e1e6b8da782"
+  integrity sha512-aqXHea9xfpVn6VoCq9pjujwFqrh3vw3Fgm9KFUZJ1cF7Bx5HI62DvQPw8LlRB3NB4dhwBBA1ldAVkkkd1du8nA==
+  dependencies:
+    "@cfworker/json-schema" "^4.0.2"
+    ansi-styles "^5.0.0"
+    camelcase "6"
+    decamelize "1.2.0"
+    js-tiktoken "^1.0.12"
+    langsmith "^0.3.67"
+    mustache "^4.2.0"
+    p-queue "^6.6.2"
+    p-retry "4"
+    uuid "^10.0.0"
+    zod "^3.25.32"
+    zod-to-json-schema "^3.22.3"
+
+"@langchain/langgraph-checkpoint@^0.1.1":
+  version "0.1.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@langchain/langgraph-checkpoint&pkgVersion=0.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BsYW5nY2hhaW4vbGFuZ2dyYXBoLWNoZWNrcG9pbnQvLS9sYW5nZ3JhcGgtY2hlY2twb2ludC0wLjEuMS50Z3o=#500569a02af4b85172d775de63eeba06afa0c189"
+  integrity sha512-h2bP0RUikQZu0Um1ZUPErQLXyhzroJqKRbRcxYRTAh49oNlsfeq4A3K4YEDRbGGuyPZI/Jiqwhks1wZwY73AZw==
+  dependencies:
+    uuid "^10.0.0"
+
+"@langchain/langgraph-sdk@~0.1.0":
+  version "0.1.5"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@langchain/langgraph-sdk&pkgVersion=0.1.5&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BsYW5nY2hhaW4vbGFuZ2dyYXBoLXNkay8tL2xhbmdncmFwaC1zZGstMC4xLjUudGd6#2ee091e6ea9c1d5d89e5e4056c2e158aa456c3c2"
+  integrity sha512-4rIGAyncjQYWur5/P77be2g13rSCBqO0Xn4FlmiJMDxB5csPqkwf3qmy8LrOXB96K99t7G5IL0sq4nSLqFsl/Q==
+  dependencies:
+    "@types/json-schema" "^7.0.15"
+    p-queue "^6.6.2"
+    p-retry "4"
+    uuid "^9.0.0"
+
+"@langchain/langgraph@^0.4.9":
+  version "0.4.9"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@langchain/langgraph&pkgVersion=0.4.9&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BsYW5nY2hhaW4vbGFuZ2dyYXBoLy0vbGFuZ2dyYXBoLTAuNC45LnRneg==#470a238ea98662d6ec9dfc42859a00acad00fc81"
+  integrity sha512-+rcdTGi4Ium4X/VtIX3Zw4RhxEkYWpwUyz806V6rffjHOAMamg6/WZDxpJbrP33RV/wJG1GH12Z29oX3Pqq3Aw==
+  dependencies:
+    "@langchain/langgraph-checkpoint" "^0.1.1"
+    "@langchain/langgraph-sdk" "~0.1.0"
+    uuid "^10.0.0"
+    zod "^3.25.32"
+
+"@langchain/ollama@^0.2.4":
+  version "0.2.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@langchain/ollama&pkgVersion=0.2.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BsYW5nY2hhaW4vb2xsYW1hLy0vb2xsYW1hLTAuMi40LnRneg==#91c2108015e018f1dcae1207c8bc44da0cf047fa"
+  integrity sha512-XThDrZurNPcUO6sasN13rkes1aGgu5gWAtDkkyIGT3ZeMOvrYgPKGft+bbhvsigTIH9C01TfPzrSp8LAmvHIjA==
+  dependencies:
+    ollama "^0.5.17"
+    uuid "^10.0.0"
+
+"@langchain/openai@>=0.1.0 <0.7.0", "@langchain/openai@>=0.2.0 <0.7.0":
+  version "0.6.13"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@langchain/openai&pkgVersion=0.6.13&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BsYW5nY2hhaW4vb3BlbmFpLy0vb3BlbmFpLTAuNi4xMy50Z3o=#87662cc27ee22ef075e2c7bbc9050c8a25fb0007"
+  integrity sha512-+QCVag3J2MeFxLMPjjYYpDCBKbmrK7D/xQGq+iWBGpNSg/08vnx7pEkkhiL2NTFIHiYu7w/7EG3UHQ8gOK/cag==
+  dependencies:
+    js-tiktoken "^1.0.12"
+    openai "5.12.2"
+    zod "^3.25.32"
+
+"@langchain/textsplitters@>=0.0.0 <0.2.0":
+  version "0.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@langchain/textsplitters&pkgVersion=0.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BsYW5nY2hhaW4vdGV4dHNwbGl0dGVycy8tL3RleHRzcGxpdHRlcnMtMC4xLjAudGd6#f37620992192df09ecda3dfbd545b36a6bcbae46"
+  integrity sha512-djI4uw9rlkAb5iMhtLED+xJebDdAG935AdP4eRTB02R7OB/act55Bj9wsskhZsvuyQRpO4O1wQOp85s6T6GWmw==
+  dependencies:
+    js-tiktoken "^1.0.12"
+
+"@langchain/weaviate@^0.2.0":
+  version "0.2.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@langchain/weaviate&pkgVersion=0.2.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BsYW5nY2hhaW4vd2VhdmlhdGUvLS93ZWF2aWF0ZS0wLjIuMy50Z3o=#7b2557ea9a369bb7ce05dfc553f56b6ff062d90b"
+  integrity sha512-WqNGn1eSrI+ZigJd7kZjCj3fvHBYicKr054qts2nNJ+IyO5dWmY3oFTaVHFq1OLFVZJJxrFeDnxSEOC3JnfP0w==
+  dependencies:
+    uuid "^10.0.0"
+    weaviate-client "^3.5.2"
+
 "@napi-rs/wasm-runtime@^0.2.12":
   version "0.2.12"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@napi-rs/wasm-runtime&pkgVersion=0.2.12&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0BuYXBpLXJzL3dhc20tcnVudGltZS8tL3dhc20tcnVudGltZS0wLjIuMTIudGd6#3e78a8b96e6c33a6c517e1894efbd5385a7cb6f2"
@@ -498,6 +624,59 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
+  version "1.1.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/aspromise&pkgVersion=1.1.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL2FzcHJvbWlzZS8tL2FzcHJvbWlzZS0xLjEuMi50Z3o=#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
+  integrity sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==
+
+"@protobufjs/base64@^1.1.2":
+  version "1.1.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/base64&pkgVersion=1.1.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL2Jhc2U2NC8tL2Jhc2U2NC0xLjEuMi50Z3o=#4c85730e59b9a1f1f349047dbf24296034bb2735"
+  integrity sha512-AZkcAA5vnN/v4PDqKyMR5lx7hZttPDgClv83E//FMNhR2TMcLUhfRUBHCmSl0oi9zMgDDqRUJkSxO3wm85+XLg==
+
+"@protobufjs/codegen@^2.0.4":
+  version "2.0.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/codegen&pkgVersion=2.0.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL2NvZGVnZW4vLS9jb2RlZ2VuLTIuMC40LnRneg==#7ef37f0d010fb028ad1ad59722e506d9262815cb"
+  integrity sha512-YyFaikqM5sH0ziFZCN3xDC7zeGaB/d0IUb9CATugHWbd1FRFwWwt4ld4OYMPWu5a3Xe01mGAULCdqhMlPl29Jg==
+
+"@protobufjs/eventemitter@^1.1.0":
+  version "1.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/eventemitter&pkgVersion=1.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL2V2ZW50ZW1pdHRlci8tL2V2ZW50ZW1pdHRlci0xLjEuMC50Z3o=#355cbc98bafad5978f9ed095f397621f1d066b70"
+  integrity sha512-j9ednRT81vYJ9OfVuXG6ERSTdEL1xVsNgqpkxMsbIabzSo3goCjDIveeGv5d03om39ML71RdmrGNjG5SReBP/Q==
+
+"@protobufjs/fetch@^1.1.0":
+  version "1.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/fetch&pkgVersion=1.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL2ZldGNoLy0vZmV0Y2gtMS4xLjAudGd6#ba99fb598614af65700c1619ff06d454b0d84c45"
+  integrity sha512-lljVXpqXebpsijW71PZaCYeIcE5on1w5DlQy5WH6GLbFryLUrBD4932W/E2BSpfRJWseIL4v/KPgBFxDOIdKpQ==
+  dependencies:
+    "@protobufjs/aspromise" "^1.1.1"
+    "@protobufjs/inquire" "^1.1.0"
+
+"@protobufjs/float@^1.0.2":
+  version "1.0.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/float&pkgVersion=1.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL2Zsb2F0Ly0vZmxvYXQtMS4wLjIudGd6#5e9e1abdcb73fc0a7cb8b291df78c8cbd97b87d1"
+  integrity sha512-Ddb+kVXlXst9d+R9PfTIxh1EdNkgoRe5tOX6t01f1lYWOvJnSPDBlG241QLzcyPdoNTsblLUdujGSE4RzrTZGQ==
+
+"@protobufjs/inquire@^1.1.0":
+  version "1.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/inquire&pkgVersion=1.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL2lucXVpcmUvLS9pbnF1aXJlLTEuMS4wLnRneg==#ff200e3e7cf2429e2dcafc1140828e8cc638f089"
+  integrity sha512-kdSefcPdruJiFMVSbn801t4vFK7KB/5gd2fYvrxhuJYg8ILrmn9SKSX2tZdV6V+ksulWqS7aXjBcRXl3wHoD9Q==
+
+"@protobufjs/path@^1.1.2":
+  version "1.1.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/path&pkgVersion=1.1.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL3BhdGgvLS9wYXRoLTEuMS4yLnRneg==#6cc2b20c5c9ad6ad0dccfd21ca7673d8d7fbf68d"
+  integrity sha512-6JOcJ5Tm08dOHAbdR3GrvP+yUUfkjG5ePsHYczMFLq3ZmMkAD98cDgcT2iA1lJ9NVwFd4tH/iSSoe44YWkltEA==
+
+"@protobufjs/pool@^1.1.0":
+  version "1.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/pool&pkgVersion=1.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL3Bvb2wvLS9wb29sLTEuMS4wLnRneg==#09fd15f2d6d3abfa9b65bc366506d6ad7846ff54"
+  integrity sha512-0kELaGSIDBKvcgS4zkjz1PeddatrjYcmMWOlAuAPwAeccUrPHdUqo/J6LiymHHEiJT5NrF1UVwxY14f+fy4WQw==
+
+"@protobufjs/utf8@^1.1.0":
+  version "1.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@protobufjs/utf8&pkgVersion=1.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0Bwcm90b2J1ZmpzL3V0ZjgvLS91dGY4LTEuMS4wLnRneg==#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
+  integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
 "@radix-ui/number@1.1.1":
   version "1.1.1"
@@ -1004,6 +1183,13 @@
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/ms&pkgVersion=2.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy9tcy8tL21zLTIuMS4wLnRneg==#052aa67a48eccc4309d7f0191b7e41434b90bb78"
   integrity sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==
 
+"@types/node@>=13.7.0":
+  version "24.5.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/node&pkgVersion=24.5.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy9ub2RlLy0vbm9kZS0yNC41LjIudGd6#52ceb83f50fe0fcfdfbd2a9fab6db2e9e7ef6446"
+  integrity sha512-FYxk1I7wPv3K2XBaoyH2cTnocQEu8AOZ60hPbsyukMPLv5/5qr7V1i8PLHdl6Zf87I+xZXFvPCXYjiTFq+YSDQ==
+  dependencies:
+    undici-types "~7.12.0"
+
 "@types/node@^24.3.1":
   version "24.3.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/node&pkgVersion=24.3.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy9ub2RlLy0vbm9kZS0yNC4zLjEudGd6#b0a3fb2afed0ef98e8d7f06d46ef6349047709f3"
@@ -1023,6 +1209,11 @@
   dependencies:
     csstype "^3.0.2"
 
+"@types/retry@0.12.0":
+  version "0.12.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/retry&pkgVersion=0.12.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy9yZXRyeS8tL3JldHJ5LTAuMTIuMC50Z3o=#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
+  integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
+
 "@types/trusted-types@^2.0.7":
   version "2.0.7"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/trusted-types&pkgVersion=2.0.7&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy90cnVzdGVkLXR5cGVzLy0vdHJ1c3RlZC10eXBlcy0yLjAuNy50Z3o=#baccb07a970b91707df3a3e8ba6896c57ead2d11"
@@ -1037,6 +1228,11 @@
   version "2.0.11"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/unist&pkgVersion=2.0.11&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy91bmlzdC8tL3VuaXN0LTIuMC4xMS50Z3o=#11af57b127e32487774841f7a4e54eab166d03c4"
   integrity sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==
+
+"@types/uuid@^10.0.0":
+  version "10.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=@types/uuid&pkgVersion=10.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL0B0eXBlcy91dWlkLy0vdXVpZC0xMC4wLjAudGd6#e9c07fe50da0f53dc24970cca94d619ff03f6f6d"
+  integrity sha512-7gqG38EyHgyP1S+7+xomFtL+ZNHcKv6DwNaCZmJmo1vgMugyF3TCnXVg4t1uk89mLNwnLtnY3TpOpCOyp1/xHQ==
 
 "@typescript-eslint/eslint-plugin@8.43.0":
   version "8.43.0"
@@ -1153,6 +1349,11 @@
     "@types/babel__core" "^7.20.5"
     react-refresh "^0.17.0"
 
+abort-controller-x@^0.4.0, abort-controller-x@^0.4.3:
+  version "0.4.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=abort-controller-x&pkgVersion=0.4.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Fib3J0LWNvbnRyb2xsZXIteC8tL2Fib3J0LWNvbnRyb2xsZXIteC0wLjQuMy50Z3o=#ff269788386fabd58a7b6eeaafcb6cf55c2958e0"
+  integrity sha512-VtUwTNU8fpMwvWGn4xE93ywbogTYsuT+AUxAXOeelbXuQVIwNmC5YLeho9sH4vZ4ITW8414TTAOG1nW6uIVHCA==
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=acorn-jsx&pkgVersion=5.3.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Fjb3JuLWpzeC8tL2Fjb3JuLWpzeC01LjMuMi50Z3o=#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
@@ -1173,12 +1374,22 @@ ajv@^6.12.4:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ansi-styles@^4.1.0:
+ansi-regex@^5.0.1:
+  version "5.0.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ansi-regex&pkgVersion=5.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Fuc2ktcmVnZXgvLS9hbnNpLXJlZ2V4LTUuMC4xLnRneg==#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
+  integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
+
+ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   version "4.3.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ansi-styles&pkgVersion=4.3.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Fuc2ktc3R5bGVzLy0vYW5zaS1zdHlsZXMtNC4zLjAudGd6#edd803628ae71c04c85ae7a0906edad34b648937"
   integrity sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==
   dependencies:
     color-convert "^2.0.1"
+
+ansi-styles@^5.0.0:
+  version "5.2.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ansi-styles&pkgVersion=5.2.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Fuc2ktc3R5bGVzLy0vYW5zaS1zdHlsZXMtNS4yLjAudGd6#07449690ad45777d1924ac2abb2fc8895dba836b"
+  integrity sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==
 
 argparse@^2.0.1:
   version "2.0.1"
@@ -1201,6 +1412,16 @@ balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=balanced-match&pkgVersion=1.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2JhbGFuY2VkLW1hdGNoLy0vYmFsYW5jZWQtbWF0Y2gtMS4wLjIudGd6#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+base64-js@^1.5.1:
+  version "1.5.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=base64-js&pkgVersion=1.5.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Jhc2U2NC1qcy8tL2Jhc2U2NC1qcy0xLjUuMS50Z3o=#1b1b440160a5bf7ad40b650f095963481903930a"
+  integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
+
+binary-extensions@^2.2.0:
+  version "2.3.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=binary-extensions&pkgVersion=2.3.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2JpbmFyeS1leHRlbnNpb25zLy0vYmluYXJ5LWV4dGVuc2lvbnMtMi4zLjAudGd6#f6e14a97858d327252200242d4ccfe522c445522"
+  integrity sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==
 
 brace-expansion@^1.1.7:
   version "1.1.12"
@@ -1239,6 +1460,11 @@ callsites@^3.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=callsites&pkgVersion=3.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NhbGxzaXRlcy8tL2NhbGxzaXRlcy0zLjEuMC50Z3o=#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
+camelcase@6:
+  version "6.3.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=camelcase&pkgVersion=6.3.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NhbWVsY2FzZS8tL2NhbWVsY2FzZS02LjMuMC50Z3o=#5685b95eb209ac9c0c177467778c9c84df58ba9a"
+  integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
+
 caniuse-lite@^1.0.30001737:
   version "1.0.30001741"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=caniuse-lite&pkgVersion=1.0.30001741&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Nhbml1c2UtbGl0ZS8tL2Nhbml1c2UtbGl0ZS0xLjAuMzAwMDE3NDEudGd6#67fb92953edc536442f3c9da74320774aa523143"
@@ -1249,7 +1475,7 @@ ccount@^2.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ccount&pkgVersion=2.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Njb3VudC8tL2Njb3VudC0yLjAuMS50Z3o=#17a3bf82302e0870d6da43a01311a8bc02a3ecf5"
   integrity sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==
 
-chalk@^4.0.0:
+chalk@^4.0.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=chalk&pkgVersion=4.1.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NoYWxrLy0vY2hhbGstNC4xLjIudGd6#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -1289,6 +1515,15 @@ class-variance-authority@^0.7.1:
   dependencies:
     clsx "^2.1.1"
 
+cliui@^8.0.1:
+  version "8.0.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=cliui&pkgVersion=8.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NsaXVpLy0vY2xpdWktOC4wLjEudGd6#0c04b075db02cbfe60dc8e6cf2f5486b1a3608aa"
+  integrity sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.1"
+    wrap-ansi "^7.0.0"
+
 clsx@^2.1.1:
   version "2.1.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=clsx&pkgVersion=2.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Nsc3gvLS9jbHN4LTIuMS4xLnRneg==#eed397c9fd8bd882bfb18deab7102049a2f32999"
@@ -1316,10 +1551,24 @@ concat-map@0.0.1:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=concat-map&pkgVersion=0.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NvbmNhdC1tYXAvLS9jb25jYXQtbWFwLTAuMC4xLnRneg==#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
+console-table-printer@^2.12.1:
+  version "2.14.6"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=console-table-printer&pkgVersion=2.14.6&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NvbnNvbGUtdGFibGUtcHJpbnRlci8tL2NvbnNvbGUtdGFibGUtcHJpbnRlci0yLjE0LjYudGd6#edfe0bf311fa2701922ed509443145ab51e06436"
+  integrity sha512-MCBl5HNVaFuuHW6FGbL/4fB7N/ormCy+tQ+sxTrF6QtSbSNETvPuOVbkJBhzDgYhvjWGrTma4eYJa37ZuoQsPw==
+  dependencies:
+    simple-wcswidth "^1.0.1"
+
 convert-source-map@^2.0.0:
   version "2.0.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=convert-source-map&pkgVersion=2.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2NvbnZlcnQtc291cmNlLW1hcC8tL2NvbnZlcnQtc291cmNlLW1hcC0yLjAuMC50Z3o=#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
   integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
+
+cross-fetch@^3.1.5:
+  version "3.2.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=cross-fetch&pkgVersion=3.2.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Nyb3NzLWZldGNoLy0vY3Jvc3MtZmV0Y2gtMy4yLjAudGd6#34e9192f53bc757d6614304d9e5e6fb4edb782e3"
+  integrity sha512-Q+xVJLoGOeIMXZmbUK4HYk+69cQH6LudR0Vu/pRm2YlU/hDV9CiS0gKUMaWY5f2NeUH9C1nV3bsTlCo0FsTV1Q==
+  dependencies:
+    node-fetch "^2.7.0"
 
 cross-spawn@^7.0.6:
   version "7.0.6"
@@ -1348,6 +1597,11 @@ debug@^4.1.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   integrity sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==
   dependencies:
     ms "^2.1.3"
+
+decamelize@1.2.0:
+  version "1.2.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=decamelize&pkgVersion=1.2.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2RlY2FtZWxpemUvLS9kZWNhbWVsaXplLTEuMi4wLnRneg==#f6534d15148269b20352e7bee26f501f9a191290"
+  integrity sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==
 
 decode-named-character-reference@^1.0.0:
   version "1.2.0"
@@ -1395,6 +1649,11 @@ electron-to-chromium@^1.5.211:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=electron-to-chromium&pkgVersion=1.5.215&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2VsZWN0cm9uLXRvLWNocm9taXVtLy0vZWxlY3Ryb24tdG8tY2hyb21pdW0tMS41LjIxNS50Z3o=#200c8d69b1270af6126837b6b1f95077c3a347b1"
   integrity sha512-TIvGp57UpeNetj/wV/xpFNpWGb0b/ROw372lHPx5Aafx02gjTBtWnEEcaSX3W2dLM3OSdGGyHX/cHl01JQsLaQ==
 
+emoji-regex@^8.0.0:
+  version "8.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=emoji-regex&pkgVersion=8.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2Vtb2ppLXJlZ2V4Ly0vZW1vamktcmVnZXgtOC4wLjAudGd6#e818fd69ce5ccfcb404594f842963bf53164cc37"
+  integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
+
 enhanced-resolve@^5.18.3:
   version "5.18.3"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=enhanced-resolve&pkgVersion=5.18.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2VuaGFuY2VkLXJlc29sdmUvLS9lbmhhbmNlZC1yZXNvbHZlLTUuMTguMy50Z3o=#9b5f4c5c076b8787c78fe540392ce76a88855b44"
@@ -1440,7 +1699,7 @@ esbuild@^0.25.0:
     "@esbuild/win32-ia32" "0.25.9"
     "@esbuild/win32-x64" "0.25.9"
 
-escalade@^3.2.0:
+escalade@^3.1.1, escalade@^3.2.0:
   version "3.2.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=escalade&pkgVersion=3.2.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2VzY2FsYWRlLy0vZXNjYWxhZGUtMy4yLjAudGd6#011a3f69856ba189dffa7dc8fcce99d2a87903e5"
   integrity sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==
@@ -1562,6 +1821,16 @@ esutils@^2.0.2:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=esutils&pkgVersion=2.0.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2VzdXRpbHMvLS9lc3V0aWxzLTIuMC4zLnRneg==#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
+eventemitter3@^4.0.4:
+  version "4.0.7"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=eventemitter3&pkgVersion=4.0.7&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2V2ZW50ZW1pdHRlcjMvLS9ldmVudGVtaXR0ZXIzLTQuMC43LnRneg==#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
+
+expr-eval@^2.0.2:
+  version "2.0.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=expr-eval&pkgVersion=2.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2V4cHItZXZhbC8tL2V4cHItZXZhbC0yLjAuMi50Z3o=#fa6f044a7b0c93fde830954eb9c5b0f7fbc7e201"
+  integrity sha512-4EMSHGOPSwAfBiibw3ndnP0AvjDWLsMvGOvWEZ2F96IGk0bIVdjQisOHxReSkE13mHcfbuCiXw+G4y0zv6N8Eg==
+
 extend@^3.0.0:
   version "3.0.2"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=extend&pkgVersion=3.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2V4dGVuZC8tL2V4dGVuZC0zLjAuMi50Z3o=#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
@@ -1635,6 +1904,11 @@ flat-cache@^4.0.0:
     flatted "^3.2.9"
     keyv "^4.5.4"
 
+flat@^5.0.2:
+  version "5.0.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=flat&pkgVersion=5.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2ZsYXQvLS9mbGF0LTUuMC4yLnRneg==#8ca6fe332069ffa9d324c327198c598259ceb241"
+  integrity sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==
+
 flatted@^3.2.9:
   version "3.3.3"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=flatted&pkgVersion=3.3.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2ZsYXR0ZWQvLS9mbGF0dGVkLTMuMy4zLnRneg==#67c8fad95454a7c7abebf74bb78ee74a44023358"
@@ -1649,6 +1923,11 @@ gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=gensync&pkgVersion=1.0.0-beta.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2dlbnN5bmMvLS9nZW5zeW5jLTEuMC4wLWJldGEuMi50Z3o=#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
   integrity sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==
+
+get-caller-file@^2.0.5:
+  version "2.0.5"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=get-caller-file&pkgVersion=2.0.5&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2dldC1jYWxsZXItZmlsZS8tL2dldC1jYWxsZXItZmlsZS0yLjAuNS50Z3o=#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
+  integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
 get-nonce@^1.0.0:
   version "1.0.1"
@@ -1688,6 +1967,19 @@ graphemer@^1.4.0:
   version "1.4.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=graphemer&pkgVersion=1.4.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2dyYXBoZW1lci8tL2dyYXBoZW1lci0xLjQuMC50Z3o=#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
+
+graphql-request@^6.1.0:
+  version "6.1.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=graphql-request&pkgVersion=6.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2dyYXBocWwtcmVxdWVzdC8tL2dyYXBocWwtcmVxdWVzdC02LjEuMC50Z3o=#f4eb2107967af3c7a5907eb3131c671eac89be4f"
+  integrity sha512-p+XPfS4q7aIpKVcgmnZKhMNqhltk20hfXtkaIkTfjjmiKMJ5xrt5c743cL03y/K7y1rg3WrIC49xGiEQ4mxdNw==
+  dependencies:
+    "@graphql-typed-document-node/core" "^3.2.0"
+    cross-fetch "^3.1.5"
+
+graphql@^16.11.0:
+  version "16.11.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=graphql&pkgVersion=16.11.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2dyYXBocWwvLS9ncmFwaHFsLTE2LjExLjAudGd6#96d17f66370678027fdf59b2d4c20b4efaa8a633"
+  integrity sha512-mS1lbMsxgQj6hge1XZ6p7GPhbrtFwUFYi3wRzXAC/FmYnyXMTvvI3td3rjmQ2u8ewXueaSvRPWaEcgVVOT9Jnw==
 
 has-flag@^4.0.0:
   version "4.0.0"
@@ -1869,6 +2161,11 @@ is-extglob@^2.1.1:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=is-extglob&pkgVersion=2.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2lzLWV4dGdsb2IvLS9pcy1leHRnbG9iLTIuMS4xLnRneg==#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
   integrity sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==
 
+is-fullwidth-code-point@^3.0.0:
+  version "3.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=is-fullwidth-code-point&pkgVersion=3.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2lzLWZ1bGx3aWR0aC1jb2RlLXBvaW50Ly0vaXMtZnVsbHdpZHRoLWNvZGUtcG9pbnQtMy4wLjAudGd6#f116f8064fe90b3f7844a38997c0b75051269f1d"
+  integrity sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==
+
 is-glob@^4.0.0, is-glob@^4.0.1, is-glob@^4.0.3:
   version "4.0.3"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=is-glob&pkgVersion=4.0.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2lzLWdsb2IvLS9pcy1nbG9iLTQuMC4zLnRneg==#64f61e42cbbb2eec2071a9dac0b28ba1e65d5084"
@@ -1900,6 +2197,13 @@ jiti@^2.5.1:
   version "2.5.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=jiti&pkgVersion=2.5.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2ppdGkvLS9qaXRpLTIuNS4xLnRneg==#bd099c1c2be1c59bbea4e5adcd127363446759d0"
   integrity sha512-twQoecYPiVA5K/h6SxtORw/Bs3ar+mLUtoPSc7iMXzQzK8d7eJ/R09wmTwAjiamETn1cXYPGfNnu7DMoHgu12w==
+
+js-tiktoken@^1.0.12:
+  version "1.0.21"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=js-tiktoken&pkgVersion=1.0.21&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2pzLXRpa3Rva2VuLy0vanMtdGlrdG9rZW4tMS4wLjIxLnRneg==#368a9957591a30a62997dd0c4cf30866f00f8221"
+  integrity sha512-biOj/6M5qdgx5TKjDnFT1ymSpM5tbd3ylwDtrQvFQSu0Z7bBYko2dF+W/aUkXUPuk6IVpRxk/3Q2sHOzGlS36g==
+  dependencies:
+    base64-js "^1.5.1"
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -1938,12 +2242,47 @@ json5@^2.2.3:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=json5&pkgVersion=2.2.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2pzb241Ly0vanNvbjUtMi4yLjMudGd6#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
+jsonpointer@^5.0.1:
+  version "5.0.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=jsonpointer&pkgVersion=5.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2pzb25wb2ludGVyLy0vanNvbnBvaW50ZXItNS4wLjEudGd6#2110e0af0900fd37467b5907ecd13a7884a1b559"
+  integrity sha512-p/nXbhSEcu3pZRdkW1OfJhpsVtW1gd4Wa1fnQc9YLiTfAjn0312eMKimbdIQzuZl9aa9xUGaRlP9T/CJE/ditQ==
+
 keyv@^4.5.4:
   version "4.5.4"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=keyv&pkgVersion=4.5.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2tleXYvLS9rZXl2LTQuNS40LnRneg==#a879a99e29452f942439f2a405e3af8b31d4de93"
   integrity sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==
   dependencies:
     json-buffer "3.0.1"
+
+"langchain@>=0.2.3 <0.3.0 || >=0.3.4 <0.4.0", langchain@^0.3.34:
+  version "0.3.34"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=langchain&pkgVersion=0.3.34&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2xhbmdjaGFpbi8tL2xhbmdjaGFpbi0wLjMuMzQudGd6#b888c22275b75699d4b17c4475f4b67949cb5572"
+  integrity sha512-OADHLQYRX+36EqQBxIoryCdMKfHex32cJBSWveadIIeRhygqivacIIDNwVjX51Y++c80JIdR0jaQHWn2r3H1iA==
+  dependencies:
+    "@langchain/openai" ">=0.1.0 <0.7.0"
+    "@langchain/textsplitters" ">=0.0.0 <0.2.0"
+    js-tiktoken "^1.0.12"
+    js-yaml "^4.1.0"
+    jsonpointer "^5.0.1"
+    langsmith "^0.3.67"
+    openapi-types "^12.1.3"
+    p-retry "4"
+    uuid "^10.0.0"
+    yaml "^2.2.1"
+    zod "^3.25.32"
+
+langsmith@^0.3.67:
+  version "0.3.69"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=langsmith&pkgVersion=0.3.69&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2xhbmdzbWl0aC8tL2xhbmdzbWl0aC0wLjMuNjkudGd6#ae9f3db6e11cac8c337401ead5d05171002fdc54"
+  integrity sha512-YKzu92YAP2o+d+1VmR38xqFX0RIRLKYj1IqdflVEY83X0FoiVlrWO3xDLXgnu7vhZ2N2M6jx8VO9fVF8yy9gHA==
+  dependencies:
+    "@types/uuid" "^10.0.0"
+    chalk "^4.1.2"
+    console-table-printer "^2.12.1"
+    p-queue "^6.6.2"
+    p-retry "4"
+    semver "^7.6.3"
+    uuid "^10.0.0"
 
 levn@^0.4.1:
   version "0.4.1"
@@ -2028,10 +2367,20 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
+lodash.camelcase@^4.3.0:
+  version "4.3.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=lodash.camelcase&pkgVersion=4.3.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2xvZGFzaC5jYW1lbGNhc2UvLS9sb2Rhc2guY2FtZWxjYXNlLTQuMy4wLnRneg==#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+  integrity sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==
+
 lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=lodash.merge&pkgVersion=4.6.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2xvZGFzaC5tZXJnZS8tL2xvZGFzaC5tZXJnZS00LjYuMi50Z3o=#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
+
+long@^5.0.0, long@^5.3.2:
+  version "5.3.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=long&pkgVersion=5.3.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL2xvbmcvLS9sb25nLTUuMy4yLnRneg==#1d84463095999262d7d7b7f8bfd4a8cc55167f83"
+  integrity sha512-mNAgZ1GmyNhD7AuqnTG3/VQ26o760+ZYBPKjPvugO8+nLbYfX6TVpJPseBvopbdY+qpZ/lKUnmEc1LeZYS3QAA==
 
 longest-streak@^3.0.0:
   version "3.1.0"
@@ -2578,6 +2927,11 @@ ms@^2.1.3:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ms&pkgVersion=2.1.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL21zLy0vbXMtMi4xLjMudGd6#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
+mustache@^4.2.0:
+  version "4.2.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=mustache&pkgVersion=4.2.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL211c3RhY2hlLy0vbXVzdGFjaGUtNC4yLjAudGd6#e5892324d60a12ec9c2a73359edca52972bf6f64"
+  integrity sha512-71ippSywq5Yb7/tVYyGbkBggbU8H3u5Rz56fH60jGFgr8uHwxs+aSKeqmluIVzM0m0kB7xQjKS6qPfd0b2ZoqQ==
+
 nanoid@^3.3.11:
   version "3.3.11"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=nanoid&pkgVersion=3.3.11&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25hbm9pZC8tL25hbm9pZC0zLjMuMTEudGd6#4f4f112cefbe303202f2199838128936266d185b"
@@ -2588,10 +2942,58 @@ natural-compare@^1.4.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=natural-compare&pkgVersion=1.4.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25hdHVyYWwtY29tcGFyZS8tL25hdHVyYWwtY29tcGFyZS0xLjQuMC50Z3o=#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
+nice-grpc-client-middleware-retry@^3.1.11:
+  version "3.1.11"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=nice-grpc-client-middleware-retry&pkgVersion=3.1.11&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25pY2UtZ3JwYy1jbGllbnQtbWlkZGxld2FyZS1yZXRyeS8tL25pY2UtZ3JwYy1jbGllbnQtbWlkZGxld2FyZS1yZXRyeS0zLjEuMTEudGd6#4fc0128b891d184b6c98af3bfd6aca1b608a3fd1"
+  integrity sha512-xW/imz/kNG2g0DwTfH2eYEGrg1chSLrXtvGp9fg2qkhTgGFfAS/Pq3+t+9G8KThcC4hK/xlEyKvZWKk++33S6A==
+  dependencies:
+    abort-controller-x "^0.4.0"
+    nice-grpc-common "^2.0.2"
+
+nice-grpc-common@^2.0.2:
+  version "2.0.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=nice-grpc-common&pkgVersion=2.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25pY2UtZ3JwYy1jb21tb24vLS9uaWNlLWdycGMtY29tbW9uLTIuMC4yLnRneg==#e6aeebb2bd19d87114b351e291e30d79dd38acf7"
+  integrity sha512-7RNWbls5kAL1QVUOXvBsv1uO0wPQK3lHv+cY1gwkTzirnG1Nop4cBJZubpgziNbaVc/bl9QJcyvsf/NQxa3rjQ==
+  dependencies:
+    ts-error "^1.0.6"
+
+nice-grpc@^2.1.12:
+  version "2.1.12"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=nice-grpc&pkgVersion=2.1.12&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25pY2UtZ3JwYy8tL25pY2UtZ3JwYy0yLjEuMTIudGd6#56ffdcc4d5bc3d0271c176210680c4bd10c5149b"
+  integrity sha512-J1n4Wg+D3IhRhGQb+iqh2OpiM0GzTve/kf2lnlW4S+xczmIEd0aHUDV1OsJ5a3q8GSTqJf+s4Rgg1M8uJltarw==
+  dependencies:
+    "@grpc/grpc-js" "^1.13.1"
+    abort-controller-x "^0.4.0"
+    nice-grpc-common "^2.0.2"
+
+node-fetch@^2.7.0:
+  version "2.7.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=node-fetch&pkgVersion=2.7.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25vZGUtZmV0Y2gvLS9ub2RlLWZldGNoLTIuNy4wLnRneg==#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
+  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 node-releases@^2.0.19:
   version "2.0.20"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=node-releases&pkgVersion=2.0.20&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL25vZGUtcmVsZWFzZXMvLS9ub2RlLXJlbGVhc2VzLTIuMC4yMC50Z3o=#e26bb79dbdd1e64a146df389c699014c611cbc27"
   integrity sha512-7gK6zSXEH6neM212JgfYFXe+GmZQM+fia5SsusuBIUgnPheLFBmIPhtFoAQRj8/7wASYQnbDlHPVwY0BefoFgA==
+
+ollama@^0.5.17:
+  version "0.5.18"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ollama&pkgVersion=0.5.18&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL29sbGFtYS8tL29sbGFtYS0wLjUuMTgudGd6#10b8ee9e5cd840f2003b7bbea1802dd772e6a564"
+  integrity sha512-lTFqTf9bo7Cd3hpF6CviBe/DEhewjoZYd9N/uCe7O20qYTvGqrNOFOBDj3lbZgFWHUgDv5EeyusYxsZSLS8nvg==
+  dependencies:
+    whatwg-fetch "^3.6.20"
+
+openai@5.12.2:
+  version "5.12.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=openai&pkgVersion=5.12.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL29wZW5haS8tL29wZW5haS01LjEyLjIudGd6#512ab6b80eb8414837436e208f1b951442b97761"
+  integrity sha512-xqzHHQch5Tws5PcKR2xsZGX9xtch+JQFz5zb14dGqlshmmDAFBFEWmeIpf7wVqWV+w7Emj7jRgkNJakyKE0tYQ==
+
+openapi-types@^12.1.3:
+  version "12.1.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=openapi-types&pkgVersion=12.1.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL29wZW5hcGktdHlwZXMvLS9vcGVuYXBpLXR5cGVzLTEyLjEuMy50Z3o=#471995eb26c4b97b7bd356aacf7b91b73e777dd3"
+  integrity sha512-N4YtSYJqghVu4iek2ZUvcN/0aqH1kRDuNqzcycDxhOUpg7GdvLa2F3DgS6yBNhInhv2r/6I0Flkn7CqL8+nIcw==
 
 optionator@^0.9.3:
   version "0.9.4"
@@ -2604,6 +3006,11 @@ optionator@^0.9.3:
     prelude-ls "^1.2.1"
     type-check "^0.4.0"
     word-wrap "^1.2.5"
+
+p-finally@^1.0.0:
+  version "1.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=p-finally&pkgVersion=1.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3AtZmluYWxseS8tL3AtZmluYWxseS0xLjAuMC50Z3o=#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
+  integrity sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow==
 
 p-limit@^3.0.2:
   version "3.1.0"
@@ -2618,6 +3025,29 @@ p-locate@^5.0.0:
   integrity sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==
   dependencies:
     p-limit "^3.0.2"
+
+p-queue@^6.6.2:
+  version "6.6.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=p-queue&pkgVersion=6.6.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3AtcXVldWUvLS9wLXF1ZXVlLTYuNi4yLnRneg==#2068a9dcf8e67dd0ec3e7a2bcb76810faa85e426"
+  integrity sha512-RwFpb72c/BhQLEXIZ5K2e+AhgNVmIejGlTgiB9MzZ0e93GRvqZ7uSi0dvRF7/XIXDeNkra2fNHBxTyPDGySpjQ==
+  dependencies:
+    eventemitter3 "^4.0.4"
+    p-timeout "^3.2.0"
+
+p-retry@4:
+  version "4.6.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=p-retry&pkgVersion=4.6.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3AtcmV0cnkvLS9wLXJldHJ5LTQuNi4yLnRneg==#9baae7184057edd4e17231cee04264106e092a16"
+  integrity sha512-312Id396EbJdvRONlngUx0NydfrIQ5lsYu0znKVUzVvArzEIt08V1qhtyESbGVd1FGX7UKtiFp5uwKZdM8wIuQ==
+  dependencies:
+    "@types/retry" "0.12.0"
+    retry "^0.13.1"
+
+p-timeout@^3.2.0:
+  version "3.2.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=p-timeout&pkgVersion=3.2.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3AtdGltZW91dC8tL3AtdGltZW91dC0zLjIuMC50Z3o=#c7e17abc971d2a7962ef83626b35d635acf23dfe"
+  integrity sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==
+  dependencies:
+    p-finally "^1.0.0"
 
 parent-module@^1.0.0:
   version "1.0.1"
@@ -2704,6 +3134,24 @@ property-information@^7.0.0:
   version "7.1.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=property-information&pkgVersion=7.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3Byb3BlcnR5LWluZm9ybWF0aW9uLy0vcHJvcGVydHktaW5mb3JtYXRpb24tNy4xLjAudGd6#b622e8646e02b580205415586b40804d3e8bfd5d"
   integrity sha512-TwEZ+X+yCJmYfL7TPUOcvBZ4QfoT5YenQiJuX//0th53DE6w0xxLEtfK3iyryQFddXuvkIk51EEgrJQ0WJkOmQ==
+
+protobufjs@^7.5.3:
+  version "7.5.4"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=protobufjs&pkgVersion=7.5.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3Byb3RvYnVmanMvLS9wcm90b2J1ZmpzLTcuNS40LnRneg==#885d31fe9c4b37f25d1bb600da30b1c5b37d286a"
+  integrity sha512-CvexbZtbov6jW2eXAvLukXjXUW1TzFaivC46BpWc/3BpcCysb5Vffu+B3XHMm8lVEuy2Mm4XGex8hBSg1yapPg==
+  dependencies:
+    "@protobufjs/aspromise" "^1.1.2"
+    "@protobufjs/base64" "^1.1.2"
+    "@protobufjs/codegen" "^2.0.4"
+    "@protobufjs/eventemitter" "^1.1.0"
+    "@protobufjs/fetch" "^1.1.0"
+    "@protobufjs/float" "^1.0.2"
+    "@protobufjs/inquire" "^1.1.0"
+    "@protobufjs/path" "^1.1.2"
+    "@protobufjs/pool" "^1.1.0"
+    "@protobufjs/utf8" "^1.1.0"
+    "@types/node" ">=13.7.0"
+    long "^5.0.0"
 
 punycode@^2.1.0:
   version "2.3.1"
@@ -2838,10 +3286,20 @@ remark-stringify@^11.0.0:
     mdast-util-to-markdown "^2.0.0"
     unified "^11.0.0"
 
+require-directory@^2.1.1:
+  version "2.1.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=require-directory&pkgVersion=2.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JlcXVpcmUtZGlyZWN0b3J5Ly0vcmVxdWlyZS1kaXJlY3RvcnktMi4xLjEudGd6#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
+  integrity sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==
+
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=resolve-from&pkgVersion=4.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3Jlc29sdmUtZnJvbS8tL3Jlc29sdmUtZnJvbS00LjAuMC50Z3o=#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
   integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
+
+retry@^0.13.1:
+  version "0.13.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=retry&pkgVersion=0.13.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3JldHJ5Ly0vcmV0cnktMC4xMy4xLnRneg==#185b1587acf67919d63b357349e03537b2484658"
+  integrity sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==
 
 reusify@^1.0.4:
   version "1.1.0"
@@ -2895,7 +3353,7 @@ semver@^6.3.1:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=semver&pkgVersion=6.3.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NlbXZlci8tL3NlbXZlci02LjMuMS50Z3o=#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.6.0:
+semver@^7.6.0, semver@^7.6.3:
   version "7.7.2"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=semver&pkgVersion=7.7.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NlbXZlci8tL3NlbXZlci03LjcuMi50Z3o=#67d99fdcd35cec21e6f8b87a7fd515a33f982b58"
   integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
@@ -2912,6 +3370,11 @@ shebang-regex@^3.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=shebang-regex&pkgVersion=3.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NoZWJhbmctcmVnZXgvLS9zaGViYW5nLXJlZ2V4LTMuMC4wLnRneg==#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
+simple-wcswidth@^1.0.1:
+  version "1.1.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=simple-wcswidth&pkgVersion=1.1.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NpbXBsZS13Y3N3aWR0aC8tL3NpbXBsZS13Y3N3aWR0aC0xLjEuMi50Z3o=#66722f37629d5203f9b47c5477b1225b85d6525b"
+  integrity sha512-j7piyCjAeTDSjzTSQ7DokZtMNwNlEAyxqSZeCS+CXH7fJ4jx3FuJ/mTW3mE+6JLs4VJBbcll0Kjn+KXI5t21Iw==
+
 source-map-js@^1.2.1:
   version "1.2.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=source-map-js&pkgVersion=1.2.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NvdXJjZS1tYXAtanMvLS9zb3VyY2UtbWFwLWpzLTEuMi4xLnRneg==#1ce5650fddd87abc099eda37dcff024c2667ae46"
@@ -2922,6 +3385,15 @@ space-separated-tokens@^2.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=space-separated-tokens&pkgVersion=2.0.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3NwYWNlLXNlcGFyYXRlZC10b2tlbnMvLS9zcGFjZS1zZXBhcmF0ZWQtdG9rZW5zLTIuMC4yLnRneg==#1ecd9d2350a3844572c3f4a312bceb018348859f"
   integrity sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==
 
+string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
+  version "4.2.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=string-width&pkgVersion=4.2.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3N0cmluZy13aWR0aC8tL3N0cmluZy13aWR0aC00LjIuMy50Z3o=#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
 stringify-entities@^4.0.0:
   version "4.0.4"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=stringify-entities&pkgVersion=4.0.4&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3N0cmluZ2lmeS1lbnRpdGllcy8tL3N0cmluZ2lmeS1lbnRpdGllcy00LjAuNC50Z3o=#b3b79ef5f277cc4ac73caeb0236c5ba939b3a4f3"
@@ -2929,6 +3401,13 @@ stringify-entities@^4.0.0:
   dependencies:
     character-entities-html4 "^2.0.0"
     character-entities-legacy "^3.0.0"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+  version "6.0.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=strip-ansi&pkgVersion=6.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3N0cmlwLWFuc2kvLS9zdHJpcC1hbnNpLTYuMC4xLnRneg==#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
 
 strip-json-comments@^3.1.1:
   version "3.1.1"
@@ -2998,6 +3477,11 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=tr46&pkgVersion=0.0.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3RyNDYvLS90cjQ2LTAuMC4zLnRneg==#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
 trim-lines@^3.0.0:
   version "3.0.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=trim-lines&pkgVersion=3.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3RyaW0tbGluZXMvLS90cmltLWxpbmVzLTMuMC4xLnRneg==#d802e332a07df861c48802c04321017b1bd87338"
@@ -3012,6 +3496,11 @@ ts-api-utils@^2.1.0:
   version "2.1.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ts-api-utils&pkgVersion=2.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3RzLWFwaS11dGlscy8tL3RzLWFwaS11dGlscy0yLjEuMC50Z3o=#595f7094e46eed364c13fd23e75f9513d29baf91"
   integrity sha512-CUgTZL1irw8u29bzrOD/nH85jqyc74D6SshFgujOIA7osm2Rz7dYH77agkx7H4FBNxDq7Cjf+IjaX/8zwFW+ZQ==
+
+ts-error@^1.0.6:
+  version "1.0.6"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=ts-error&pkgVersion=1.0.6&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3RzLWVycm9yLy0vdHMtZXJyb3ItMS4wLjYudGd6#277496f2a28de6c184cfce8dfd5cdd03a4e6b0fc"
+  integrity sha512-tLJxacIQUM82IR7JO1UUkKlYuUTmoY9HBJAmNWFzheSlDS5SPMcNIepejHJa4BpPQLAcbRhRf3GDJzyj6rbKvA==
 
 tslib@^2.0.0, tslib@^2.1.0, tslib@^2.4.0, tslib@^2.8.0:
   version "2.8.1"
@@ -3049,6 +3538,11 @@ undici-types@~7.10.0:
   version "7.10.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=undici-types&pkgVersion=7.10.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3VuZGljaS10eXBlcy8tL3VuZGljaS10eXBlcy03LjEwLjAudGd6#4ac2e058ce56b462b056e629cc6a02393d3ff350"
   integrity sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==
+
+undici-types@~7.12.0:
+  version "7.12.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=undici-types&pkgVersion=7.12.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3VuZGljaS10eXBlcy8tL3VuZGljaS10eXBlcy03LjEyLjAudGd6#15c5c7475c2a3ba30659529f5cdb4674b622fafb"
+  integrity sha512-goOacqME2GYyOZZfb5Lgtu+1IDmAlAEu5xnD3+xTzS10hT0vzpf0SPjkXwAw9Jm+4n/mQGDP3LO8CPbYROeBfQ==
 
 unified@^11.0.0:
   version "11.0.5"
@@ -3139,6 +3633,16 @@ use-sidecar@^1.1.3:
     detect-node-es "^1.1.0"
     tslib "^2.0.0"
 
+uuid@^10.0.0:
+  version "10.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=uuid&pkgVersion=10.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3V1aWQvLS91dWlkLTEwLjAuMC50Z3o=#5a95aa454e6e002725c79055fd42aaba30ca6294"
+  integrity sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==
+
+uuid@^9.0.0, uuid@^9.0.1:
+  version "9.0.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=uuid&pkgVersion=9.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3V1aWQvLS91dWlkLTkuMC4xLnRneg==#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
+
 vfile-location@^5.0.0:
   version "5.0.3"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=vfile-location&pkgVersion=5.0.3&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3ZmaWxlLWxvY2F0aW9uLy0vdmZpbGUtbG9jYXRpb24tNS4wLjMudGd6#cb9eacd20f2b6426d19451e0eafa3d0a846225c3"
@@ -3177,10 +3681,42 @@ vite@^7.1.2:
   optionalDependencies:
     fsevents "~2.3.3"
 
+weaviate-client@^3.5.2:
+  version "3.8.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=weaviate-client&pkgVersion=3.8.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3dlYXZpYXRlLWNsaWVudC8tL3dlYXZpYXRlLWNsaWVudC0zLjguMS50Z3o=#1b02a535ff21940ec833b7526675a1b4dff841db"
+  integrity sha512-/bH5SO31gGGiI5RhvOEwQBs2DtORsssVjenWxdOQzGToAdmqRC4Oo9HZLIITX5BdFD0IqKDnY81nOZlJlHzn+g==
+  dependencies:
+    abort-controller-x "^0.4.3"
+    graphql "^16.11.0"
+    graphql-request "^6.1.0"
+    long "^5.3.2"
+    nice-grpc "^2.1.12"
+    nice-grpc-client-middleware-retry "^3.1.11"
+    nice-grpc-common "^2.0.2"
+    uuid "^9.0.1"
+
 web-namespaces@^2.0.0:
   version "2.0.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=web-namespaces&pkgVersion=2.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3dlYi1uYW1lc3BhY2VzLy0vd2ViLW5hbWVzcGFjZXMtMi4wLjEudGd6#1010ff7c650eccb2592cebeeaf9a1b253fd40692"
   integrity sha512-bKr1DkiNa2krS7qxNtdrtHAmzuYGFQLiQ13TsorsdT6ULTkPLKuu5+GsFpDlg6JFjUTwX2DyhMPG2be8uPrqsQ==
+
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=webidl-conversions&pkgVersion=3.0.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3dlYmlkbC1jb252ZXJzaW9ucy8tL3dlYmlkbC1jb252ZXJzaW9ucy0zLjAuMS50Z3o=#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
+whatwg-fetch@^3.6.20:
+  version "3.6.20"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=whatwg-fetch&pkgVersion=3.6.20&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3doYXR3Zy1mZXRjaC8tL3doYXR3Zy1mZXRjaC0zLjYuMjAudGd6#580ce6d791facec91d37c72890995a0b48d31c70"
+  integrity sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=whatwg-url&pkgVersion=5.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3doYXR3Zy11cmwvLS93aGF0d2ctdXJsLTUuMC4wLnRneg==#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 which@^2.0.1:
   version "2.0.2"
@@ -3194,6 +3730,20 @@ word-wrap@^1.2.5:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=word-wrap&pkgVersion=1.2.5&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3dvcmQtd3JhcC8tL3dvcmQtd3JhcC0xLjIuNS50Z3o=#d2c45c6dd4fbce621a66f136cbe328afd0410b34"
   integrity sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==
 
+wrap-ansi@^7.0.0:
+  version "7.0.0"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=wrap-ansi&pkgVersion=7.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3dyYXAtYW5zaS8tL3dyYXAtYW5zaS03LjAuMC50Z3o=#67e145cff510a6a6984bdf1152911d69d2eb9e43"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+y18n@^5.0.5:
+  version "5.0.8"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=y18n&pkgVersion=5.0.8&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3kxOG4vLS95MThuLTUuMC44LnRneg==#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
+  integrity sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==
+
 yallist@^3.0.2:
   version "3.1.1"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=yallist&pkgVersion=3.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3lhbGxpc3QvLS95YWxsaXN0LTMuMS4xLnRneg==#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
@@ -3204,10 +3754,43 @@ yallist@^5.0.0:
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=yallist&pkgVersion=5.0.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3lhbGxpc3QvLS95YWxsaXN0LTUuMC4wLnRneg==#00e2de443639ed0d78fd87de0d27469fbcffb533"
   integrity sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==
 
+yaml@^2.2.1:
+  version "2.8.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=yaml&pkgVersion=2.8.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3lhbWwvLS95YW1sLTIuOC4xLnRneg==#1870aa02b631f7e8328b93f8bc574fac5d6c4d79"
+  integrity sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==
+
+yargs-parser@^21.1.1:
+  version "21.1.1"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=yargs-parser&pkgVersion=21.1.1&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3lhcmdzLXBhcnNlci8tL3lhcmdzLXBhcnNlci0yMS4xLjEudGd6#9096bceebf990d21bb31fa9516e0ede294a77d35"
+  integrity sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==
+
+yargs@^17.7.2:
+  version "17.7.2"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=yargs&pkgVersion=17.7.2&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3lhcmdzLy0veWFyZ3MtMTcuNy4yLnRneg==#991df39aca675a192b816e1e0363f9d75d2aa269"
+  integrity sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==
+  dependencies:
+    cliui "^8.0.1"
+    escalade "^3.1.1"
+    get-caller-file "^2.0.5"
+    require-directory "^2.1.1"
+    string-width "^4.2.3"
+    y18n "^5.0.5"
+    yargs-parser "^21.1.1"
+
 yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=yocto-queue&pkgVersion=0.1.0&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3lvY3RvLXF1ZXVlLy0veW9jdG8tcXVldWUtMC4xLjAudGd6#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zod-to-json-schema@^3.22.3:
+  version "3.24.6"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=zod-to-json-schema&pkgVersion=3.24.6&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3pvZC10by1qc29uLXNjaGVtYS8tL3pvZC10by1qc29uLXNjaGVtYS0zLjI0LjYudGd6#5920f020c4d2647edfbb954fa036082b92c9e12d"
+  integrity sha512-h/z3PKvcTcTetyjl1fkj79MHNEjm+HpD6NXheWjzOekY7kV+lwDYnHw+ivHkijnCSMz1yJaWBD9vu/Fcmk+vEg==
+
+zod@^3.25.32:
+  version "3.25.76"
+  resolved "https://gaia.changan.com.cn/mirrors/npm/pkgproxy?proxy=940094028841553976&pkgName=zod&pkgVersion=3.25.76&remote=aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tL3pvZC8tL3pvZC0zLjI1Ljc2LnRneg==#26841c3f6fd22a6a2760e7ccb719179768471e34"
+  integrity sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==
 
 zwitch@^2.0.0:
   version "2.0.4"

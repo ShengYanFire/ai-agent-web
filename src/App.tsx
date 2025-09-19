@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 import HistoryList from '@/components/HistoryList'
-import usePostStreamJSON from '@/hooks/usePostStreamJSON'
 import ChatInput from '@/components/ChatInput'
 import { Logs, MessageSquarePlus, PanelLeft } from 'lucide-react'
+import useOllama from '@/hooks/useOllama'
 
 function App() {
   const [isCollapsed, setIsCollapsed] = useState(false)
-  const { status, error, data, historyList, post, abort, initHistory, selectHistoryItem } = usePostStreamJSON<any, any>()
+  const { chat, chatSession, abortChat } = useOllama()
 
   // 添加窗口大小变化监听
   useEffect(() => {
@@ -54,7 +54,7 @@ function App() {
           </div>
 
           <div className='scrollbar-hide overflow-auto flex-1'>
-            <HistoryList data={historyList} />
+            <HistoryList data={[]} />
           </div>
         </div>
       </div>
@@ -75,12 +75,13 @@ function App() {
               />
 
               <MessageSquarePlus
+
                 className='w-6 cursor-pointer rounded-md p-1 text-gray-500 hover:bg-gray-200'
               />
 
             </>}
             <div className='truncate'>
-              主要题目主要题目主要题目主要题主要题目12312321
+              {chatSession?.title}
             </div>
           </div>
           <div className='flex-2'></div>
@@ -90,12 +91,16 @@ function App() {
           <div className='flex-1'></div>
           <div className='flex-5 flex flex-col'>
             <div className='scrollbar-hide flex-1 overflow-auto  mb-3'>
-              {historyList.map((item: any) => <>
+              {/* {historyList.map((item: any) => <>
+                <div className='mt-3'>{item.req.prompt}</div>
+                <div className='mt-3'>{item.res.map((res: any) => res.response)}</div>
+              </>)} */}
+              {chatSession?.data.map((item: any) => <>
                 <div className='mt-3'>{item.req.prompt}</div>
                 <div className='mt-3'>{item.res.map((res: any) => res.response)}</div>
               </>)}
             </div>
-            <ChatInput post={post} status={status} abort={abort} />
+            <ChatInput chat={chat} abortChat={abortChat} />
           </div>
           <div className='flex-1'></div>
         </div>
