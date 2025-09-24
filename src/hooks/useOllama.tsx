@@ -72,9 +72,8 @@ const chainWithHistory = new RunnableWithMessageHistory({
 
 
 export default function useOllama() {
-    const [chatSession, setChatSession] = useState<any>()
     const abortControllerRef = useRef<AbortController | null>(null);
-    const [historyList, sethistoryList] = useState<any[]>([])
+    const [chatReq, setchatReq] = useState('')
 
     const chat = useCallback(async (prompt: string) => {
 
@@ -89,17 +88,11 @@ export default function useOllama() {
             { input: prompt },
             { configurable: { sessionId: '1001' }, signal, version: "v1" }
         );
-        let str = ''
         for await (const event of eventStream) {
-
-
             if (event.event === "on_llm_stream") {
-                str += event.data.chunk.content
+                setchatReq(origin => origin + event.data.chunk.content)
             }
         }
-
-        console.log(str, getSessionHistory('1001'));
-
     }, [])
 
     const abortChat = useCallback(() => {
@@ -109,5 +102,5 @@ export default function useOllama() {
         }
     }, []);
 
-    return { chat, chatSession, abortChat }
+    return { chat, chatReq, abortChat }
 }

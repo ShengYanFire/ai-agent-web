@@ -3,10 +3,11 @@ import HistoryList from '@/components/HistoryList'
 import ChatInput from '@/components/ChatInput'
 import { Logs, MessageSquarePlus, PanelLeft } from 'lucide-react'
 import useOllama from '@/hooks/useOllama'
+import ChatContent from './components/ChatContent'
 
 function App() {
   const [isCollapsed, setIsCollapsed] = useState(false)
-  const { chat, chatSession, abortChat } = useOllama()
+  const { chat, chatReq, abortChat } = useOllama()
 
   // 添加窗口大小变化监听
   useEffect(() => {
@@ -81,7 +82,7 @@ function App() {
 
             </>}
             <div className='truncate'>
-              {chatSession?.title}
+              {'chatSession?.title'}
             </div>
           </div>
           <div className='flex-2'></div>
@@ -95,10 +96,11 @@ function App() {
                 <div className='mt-3'>{item.req.prompt}</div>
                 <div className='mt-3'>{item.res.map((res: any) => res.response)}</div>
               </>)} */}
-              {chatSession?.data.map((item: any) => <>
+              {/* {chatSession?.data.map((item: any) => <>
                 <div className='mt-3'>{item.req.prompt}</div>
                 <div className='mt-3'>{item.res.map((res: any) => res.response)}</div>
-              </>)}
+              </>)} */}
+              <ChatContent data={chatReq} />
             </div>
             <ChatInput chat={chat} abortChat={abortChat} />
           </div>

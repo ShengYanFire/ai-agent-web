@@ -12,7 +12,6 @@
   "dependencies": {
     "@langchain/community": "^0.3.56",
     "@langchain/core": "^0.3.77",
-    "@langchain/langgraph": "^0.4.9",
     "@langchain/ollama": "^0.2.4",
     "@radix-ui/react-select": "^2.2.6",
     "@tailwindcss/vite": "^4.1.13",
